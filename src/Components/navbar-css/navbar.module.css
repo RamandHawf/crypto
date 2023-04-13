@@ -1,0 +1,158 @@
+
+/**/
+.navigation{
+    position: fixed;
+    height: 120px;
+    width: 1440px;
+    background-color: #181818;
+}
+
+
+.NavContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 36px;
+    margin-top: 48px;
+    height: 48px;
+    width: 1295.31px;
+    background-color: none;
+}
+
+
+/* Prev*/
+
+
+.linkedinicon img {
+    margin-top: 13.50px;
+    margin-left :16px;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .linkedinicon img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .twittericon img {
+    margin-left: 142px;
+    margin-top: 13.50px;
+    height:18px;
+     width:21.91px;
+  }
+
+  .twittericon img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .Discordicon img {
+    margin-left: 16px;
+    
+     margin-top: 13.50px;
+     height:18px;
+      width:22.8px;
+    }
+
+  .Discordicon img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+
+  .Arrowicon img {
+    margin-left:16px;
+    margin-top: 13.50px;
+    height:18px; width:21.30px;
+    }
+
+  .Arrowicon img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .micon img {
+    margin-left: 16px;               
+    margin-top: 13.50px;
+    height:18px; width:22.70px;
+    }
+
+  .micon img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .messengericon img {
+    margin-left: 16px;
+    margin-top: 13.50px;
+    }
+
+  .messengericon img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+
+
+
+
+
+  .docs {
+    margin-left: 32px;
+    font: MuseoModerno;
+    color: white;
+    margin-top: 13.50px;
+  }
+  
+  .docs:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+.Aboutus{
+    margin-left: 141.93px;
+    font: MuseoModerno;
+    color: white;
+    margin-top: 13.50px;
+  }
+
+.Aboutus:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.Features{
+    margin-left: 32px;
+    font: MuseoModerno;
+    color: white;
+    margin-top : 13.50px;
+  }
+
+.Features:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.Team{
+    margin-left:32px;
+    font: MuseoModerno;
+    color: white;
+    margin-top:  13.50px;
+  }
+
+.Team:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.FAQ{
+    margin-left:32px;
+    font: MuseoModerno;
+    color: white;
+    margin-top:  13.50px;
+  }
+
+.FAQ:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
