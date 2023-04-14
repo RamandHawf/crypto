@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 36,
     marginTop: 48,
     height: 48,
-    width: 1295.31,
+    width: "100%",
     backgroundColor: "none",
   },
   logo: {
@@ -36,6 +36,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   docs: {
+    // fontFamily: 'MuseoModerno',
+
     marginLeft: 32,
     fontFamily: "MuseoModerno",
     color: "white",
