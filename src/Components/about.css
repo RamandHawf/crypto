@@ -1,0 +1,293 @@
+/*Logoup is the child of root Parent */
+/*Logoup up following the flex approach and have one child with class pic and have within pic div we have img tag with logo */
+.aboutparent {
+    margin-top: 177px;
+    height: 1754px;
+    width: 100%;
+    background-color: #1E1E1E;
+    }
+.logoup {
+  height: 12.73px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pic {
+  margin-top: 3px;
+  width: 76.75px;
+  height: 12.72px;
+}
+
+
+/**/
+.middlebodydata {
+    margin-top: 120.21px;
+    height: 361px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .videodata {
+    height: 361px;
+    width: 519px;
+    border: 2px solid yellow;
+    background-color: white;
+    margin-left: 172px;
+  }
+  
+  .textdata {
+    margin: 55px;
+    margin-left: 120px;
+    height: 252px;
+    width: 458px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .a {
+    width: 117px;
+    height: 20px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background: linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%), #C004DE;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+  .b {
+    margin-top: 0;
+    width: 443px;
+    height: 56px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+  }
+  
+  .c {
+    margin-top: 0;
+    width: 443px;
+    height: 152px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+
+  .logobottom {
+    height: 12.73px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 220px;
+  }
+  
+  .pic {
+    width: 76.75px;
+    height: 12.72px;
+  }
+
+
+/*   
+  @media screen and (min-width: 768px) {
+    .aboutparent { 
+        margin-top: 177px; height: 1754px; width: 100%; background-color: "#1E1E1E"; }
+
+        .logoup {
+            width: 100%;
+            height: 20px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+          }
+        
+          .pic {
+            margin-top: 0;
+            margin-bottom: 10px;
+      
+          }
+        .middlebodydata {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 120.21px;
+        height: auto;
+    }
+    .videodata {
+        width: 519px;
+        height: 361px;
+        margin-left: 172px;
+        margin-bottom: 0;
+    }
+    .textdata {
+        align-items: flex-start;
+        margin: 55px;
+        margin-left: 120px;
+        width: 458px;
+        height: 252px;
+    }
+}
+ */
+
+.documentData {
+    margin-top: 240.21px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .dd1 {
+    width: 1242px;
+    height: 372px;
+  }
+  .dd1child-pf1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .hedaingofdocument {
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: 56px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .dd1child-pf2 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .hedaingofdocumentdetail {
+    margin: 0;
+    padding: 0;
+    width: 1065px;
+    height: 76px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .boxes {
+    margin-top: 48px;
+    height: 176px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .box1, .box2, .box3, .box4 {
+    width: 292.5px;
+    box-sizing: border-box;
+    right: 72.81%;
+    top: 40.37%;
+    bottom: 55.88%;
+    border: 1px solid #2E2E2E;
+    border-radius: 10px;
+  }
+  
+  .ONEPAPER {
+    margin: 25%;
+    width: 136px;
+    height: 32px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  
+  .whitepaper {
+    padding: 0;
+    margin-top: 30px;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  
+  .privacypolicy {
+    padding: 0;
+    margin-top: 25%;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  .coins {
+    padding: 0;
+    margin-top: 25%;
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  
+  
+  
+  
+  
+  
