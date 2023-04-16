@@ -30,7 +30,9 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+
   }
   
   .videodata {
@@ -49,6 +51,86 @@
     display: flex;
     flex-direction: column;
   }
+
+  @media only screen and (max-width: 700px) {
+    .videodata .textdata {
+      width: calc(50% - 20px);
+    }
+    .middlebodydata {
+        margin-top: 220.21px;
+        height: 361px;
+        width: 100%;
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+      }
+    .videodata {
+        margin-top: 230px;
+        height: 361px;
+        width: 519px;
+        /* justify-content: center; */
+        border: 2px solid yellow;
+        background-color: white;
+        margin-left: 0px;
+      }
+    .textdata {
+        margin: 55px;
+        margin-left: 60px;
+    /* font-family: 'MuseoModerno'; */
+
+        height: 252px;
+        width: 458px;
+        display: flex;
+        flex-direction: column;
+      }
+      .a {
+        width: 117px;
+        height: 20px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        background: linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%), #C004DE;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      
+      .b {
+        margin-top: 0;
+        width: 443px;
+        height: 56px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #FFFFFF;
+      }
+      
+      .c {
+        margin-top: 0;
+        width: 443px;
+        height: 152px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 38px;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    
+  }
+ */
   
   .a {
     width: 117px;
@@ -100,7 +182,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 220px;
+    margin-top: 120px;
   }
   
   .pic {
@@ -160,6 +242,21 @@
     align-items: center;
   }
 
+
+  @media only screen and (max-width: 700px) {
+
+    .documentData {
+        margin-top: 440.21px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+
+  }
+
   .dd1 {
     width: 1242px;
     height: 372px;
@@ -213,19 +310,66 @@
     color: #FFFFFF;
   }
   .boxes {
-    margin-top: 48px;
+    margin-left: 24px;
+    margin-top: -150px;
     height: 176px;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
   }
-  
+  /*Sample Code*/
+  .parent {
+	display: flex;
+    margin-top: -200px;
+			/* flex-wrap: wrap; */
+			flex-direction: row;
+			/* justify-content: start; */
+			align-items: center;
+			padding: 20px;
+			/* background-color: #eee; */
+}
+
+.child {
+
+	margin-top: 20px;
+			flex-basis: 30%;
+			margin-left: 10px;
+			padding: 20px;
+			height: 200px;
+			/* background-color: #fff; */
+			text-align: center;
+            border: 1px solid #2E2E2E;
+            border-radius: 10px;
+}
+
+@media screen and (max-width: 508px) {
+    .aboutparent {
+        margin-top: 177px;
+        height: auto;
+        width: 100%;
+        background-color: #1E1E1E;
+        }
+    .parent {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .child {
+        /* justify-content: center; */
+        background-color: #1E1E1E;
+
+        flex-basis: auto;
+    }
+}
   .box1, .box2, .box3, .box4 {
     width: 292.5px;
     box-sizing: border-box;
-    right: 72.81%;
-    top: 40.37%;
-    bottom: 55.88%;
+    /* right: 72.81%; */
+    margin-top: 24px;
+    margin-left: 24px;
+    /* top: 40.37%; */
+    /* bottom: 55.88%; */
     border: 1px solid #2E2E2E;
     border-radius: 10px;
   }

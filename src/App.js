@@ -4,14 +4,16 @@ import Navbar from './Components/Navbar';
 // import Aboutus from './Components/Aboutus';
 import Home from './Components/Home';
 import Aboutus from './Components/Aboutus';
+import Responsive1 from './Components/responsive1';
 
 
 function App() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Home/>
     <Aboutus/>
+    {/* <Responsive1/> */}
     </>
   );
 }

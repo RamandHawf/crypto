@@ -20,13 +20,14 @@ const Aboutus = () => {
             in.....
           </div>
         </div>
-      </div>
-
-      <div class="logobottom">
+        <div class="logobottom">
         <div class="pic">
           <img src="top.png" alt="top" />
         </div>
       </div>
+      </div>
+
+   
       <div className="documentData">
         <div className="dd1">
           <div className="dd1child-pf1">
@@ -40,7 +41,31 @@ const Aboutus = () => {
               Unique ICO Crypto Approach and the Team/Advisors.{" "}
             </h1>
           </div>
-          <div className="boxes">
+  
+        </div>
+      </div>
+
+      <div class="parent">
+		<div class="child">
+        <h1 className="ONEPAPER">ONE PAPER</h1>
+
+		</div>
+		
+		<div class="child">
+        <h1 className="whitepaper">WHITE PAPER</h1>
+
+		</div>
+		
+		<div class="child">
+        <h1 className="privacypolicy">PRIVACY POLICY</h1>
+
+		</div>
+		<div class="child">
+        <h1 className="coins">TERM OF COIN SALES</h1>
+
+		</div>
+	</div>
+      {/* <div className="boxes">
             <div className="box1">
               <h1 className="ONEPAPER">ONE PAPER</h1>
             </div>
@@ -53,9 +78,7 @@ const Aboutus = () => {
             <div className="box4">
               <h1 className="coins">TERM OF COIN SALES</h1>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> */}
     </div>
   );
 };
