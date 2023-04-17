@@ -3,7 +3,7 @@
 
     display: flex;
     flex-direction: column;
-    height: 928.21px;
+    height: 805.21px;
     width: 100%;
     /* justify-content: center; */
     align-items: center;
@@ -11,6 +11,7 @@
 
 }
 .one{
+    margin-top: 100px;
     /* background-color: aliceblue; */
     height: 76px;
     width: auto;
@@ -114,9 +115,12 @@ color: #FFFFFF;
 
 .four{
     
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
+     */
     height: 270px;
-    width: 600px;
+    width: 926px;
+    background-color: #1E1E1E;
+    
     margin-top: 60px;
 }
 

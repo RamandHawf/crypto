@@ -4,8 +4,9 @@ import Navbar from './Components/Navbar';
 // import Aboutus from './Components/Aboutus';
 import Home from './Components/Home';
 import Aboutus from './Components/Aboutus';
-import Responsive1 from './Components/responsive1';
+// import Responsive1 from './Components/responsive1';
 import Faq from './Components/Faq';
+import Join from './Components/Joinus';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Home/>
     <Aboutus/>
     <Faq/>
+    <Join/>
     {/* <Responsive1/> */}
     </>
   );

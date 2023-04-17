@@ -70,12 +70,42 @@ const Faq = () => {
            </div>
 <div className='four'>
            
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion sx={{
+        marginTop: "10px",
+        backgroundColor:"#1E1E1E",
+    background: "rgba(255, 255, 255, 0.04)",
+    border: "1px solid rgba(255, 255, 255, 0.16)",
+    borderRadius: "10px",
+    
+    }} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Collapsible Group Item #1</Typography>
+          <Typography 
+          sx={{fontFamily: 'MuseoModerno',
+          fontStyle: "normal",
+          fontWeight: "600",
+          fontSize: "22px",
+          lineHeight: "30px",
+          /* identical to box height, or 136% */
+          // backgroundColor:"#1E1E1E",
+          textTransform: "capitalize",
+          
+          color: "#FFFFFF"}}
+          >What cryptocurrencies can i use to purchase?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography
+          sx={{fontFamily: 'MuseoModerno',
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "14px",
+          lineHeight: "26px",
+          /* identical to box height, or 136% */
+          // backgroundColor:"#1E1E1E",
+          textTransform: "capitalize",
+          background: "rgba(136, 59, 222, 0.08)",
+          color: "#FFFFFF"}}
+          
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
             sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
@@ -83,12 +113,41 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion sx={{
+        marginTop: "10px",
+        backgroundColor:"#1E1E1E",
+    background: "rgba(255, 255, 255, 0.04)",
+    border: "1px solid rgba(255, 255, 255, 0.16)",
+    borderRadius: "10px",
+    
+    }} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Collapsible Group Item #2</Typography>
+          <Typography 
+          sx={{fontFamily: 'MuseoModerno',
+          fontStyle: "normal",
+          fontWeight: "600",
+          fontSize: "22px",
+          lineHeight: "30px",
+          /* identical to box height, or 136% */
+          // backgroundColor:"#1E1E1E",
+          textTransform: "capitalize",
+          
+          color: "#FFFFFF"}}
+          >What is Optimos Cypto?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography 
+           sx={{fontFamily: 'MuseoModerno',
+           fontStyle: "normal",
+           fontWeight: "400",
+           fontSize: "14px",
+           lineHeight: "26px",
+           /* identical to box height, or 136% */
+           // backgroundColor:"#1E1E1E",
+           textTransform: "capitalize",
+           
+           color: "#FFFFFF"}}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
             sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
@@ -96,12 +155,83 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <Accordion  
+      sx={{
+        marginTop: "10px",
+        backgroundColor:"#1E1E1E",
+      background: "rgba(255, 255, 255, 0.04)",
+      border: "1px solid rgba(255, 255, 255, 0.16)",
+      borderRadius: "10px",
+      
+      }}
+      expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>Collapsible Group Item #3</Typography>
+          <Typography sx={{fontFamily: 'MuseoModerno',
+fontStyle: "normal",
+fontWeight: "600",
+fontSize: "22px",
+lineHeight: "30px",
+/* identical to box height, or 136% */
+// backgroundColor:"#1E1E1E",
+textTransform: "capitalize",
+
+color: "#FFFFFF"}} >How can i participate in ICO token sale?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography 
+           sx={{fontFamily: 'MuseoModerno',
+           fontStyle: "normal",
+           fontWeight: "400",
+           fontSize: "14px",
+           lineHeight: "26px",
+           /* identical to box height, or 136% */
+           // backgroundColor:"#1E1E1E",
+           textTransform: "capitalize",
+           
+           color: "#FFFFFF"}}
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{
+        marginTop: "10px",
+        backgroundColor:"#1E1E1E",
+    background: "rgba(255, 255, 255, 0.04)",
+    border: "1px solid rgba(255, 255, 255, 0.16)",
+    borderRadius: "10px",
+    
+    }} expanded={expanded === 'panel4'} onChange={handleChange('panel3')}>
+        <AccordionSummary  aria-controls="panel4d-content" id="panel4d-header">
+          <Typography 
+          sx={{fontFamily: 'MuseoModerno',
+          fontStyle: "normal",
+          fontWeight: "600",
+          fontSize: "22px",
+          lineHeight: "30px",
+          /* identical to box height, or 136% */
+          // backgroundColor:"#1E1E1E",
+          textTransform: "capitalize",
+          
+          color: "#FFFFFF"}}
+          >How do i benefit from ICO token?</Typography>
+        </AccordionSummary >
+        <AccordionDetails >
+          <Typography
+           sx={{fontFamily: 'MuseoModerno',
+           fontStyle: "normal",
+           fontWeight: "400",
+           fontSize: "14px",
+           lineHeight: "26px",
+           /* identical to box height, or 136% */
+           // backgroundColor:"#1E1E1E",
+           textTransform: "capitalize",
+           
+           color: "#FFFFFF"}}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
             sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
@@ -111,7 +241,11 @@ const Faq = () => {
       </Accordion>
     
            </div>
-            
+           <div class="logobottom">
+        <div class="pic">
+          <img src="top.png" alt="top" />
+        </div>
+      </div>        
         </div>
     );
 }
