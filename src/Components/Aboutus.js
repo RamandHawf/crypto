@@ -65,6 +65,12 @@ const Aboutus = () => {
 
 		</div>
 	</div>
+
+    <div class="logobottom">
+        <div class="pic">
+          <img src="top.png" alt="top" />
+        </div>
+      </div>
       {/* <div className="boxes">
             <div className="box1">
               <h1 className="ONEPAPER">ONE PAPER</h1>
@@ -79,6 +85,26 @@ const Aboutus = () => {
               <h1 className="coins">TERM OF COIN SALES</h1>
             </div>
           </div> */}
+
+          <div className="flex-container" >
+            <div className  ="left">
+
+            </div>
+            <div className  ="mid">
+                <p>SUPPORTED BY THE GLOBAL #LUNATIC COOMMUNITY,
+                    JOIN A DIVERSE, RAPIDLY GROWING WEB3 WCOSYSTEM
+                    PROJECTS ACROSS DEFI, GAMING AND NFTs
+                </p>
+            </div>
+            <div className  ="right"></div>
+          
+          </div>
+          <div class="logobottom">
+        <div class="pic">
+          <img src="top.png" alt="top" />
+        </div>
+      </div>
+          
     </div>
   );
 };

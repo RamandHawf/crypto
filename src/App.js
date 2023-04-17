@@ -5,14 +5,15 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Aboutus from './Components/Aboutus';
 import Responsive1 from './Components/responsive1';
-
+import Faq from './Components/Faq';
 
 function App() {
   return (
     <>
-    {/* <Navbar/> */}
+    <Navbar/>
     <Home/>
     <Aboutus/>
+    <Faq/>
     {/* <Responsive1/> */}
     </>
   );

@@ -1,0 +1,127 @@
+.faqparent {
+    background-color: #1E1E1E;
+
+    display: flex;
+    flex-direction: column;
+    height: 928.21px;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+.one{
+    /* background-color: aliceblue; */
+    height: 76px;
+    width: auto;
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.two
+{
+    /* background-color: blue; */
+    width: 804px;
+height: 76px;
+    width: auto;
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+color: #FFFFFF;
+
+}
+.three{
+    /* background-color:yellow; */
+    margin-top: 40px;
+    /* height: auto; */
+    height: 30px;
+    width:  691px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+             
+}
+.First{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Second{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Third{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Fourth{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Fifth{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+
+.four{
+    
+    background-color: #FFFFFF;
+    height: 270px;
+    width: 600px;
+    margin-top: 60px;
+}
+
+/* @media screen and (max-width: 800px) {
+.faqparent{
+    margin-top: 200px;
+}
+} */
