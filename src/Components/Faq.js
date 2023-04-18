@@ -85,8 +85,7 @@ const Faq = () => {
           fontWeight: "600",
           fontSize: "22px",
           lineHeight: "30px",
-          /* identical to box height, or 136% */
-          // backgroundColor:"#1E1E1E",
+        
           textTransform: "capitalize",
           
           color: "#FFFFFF"}}
@@ -99,8 +98,7 @@ const Faq = () => {
           fontWeight: "400",
           fontSize: "14px",
           lineHeight: "26px",
-          /* identical to box height, or 136% */
-          // backgroundColor:"#1E1E1E",
+      
           textTransform: "capitalize",
           background: "rgba(136, 59, 222, 0.08)",
           color: "#FFFFFF"}}
@@ -142,8 +140,7 @@ const Faq = () => {
            fontWeight: "400",
            fontSize: "14px",
            lineHeight: "26px",
-           /* identical to box height, or 136% */
-           // backgroundColor:"#1E1E1E",
+       
            textTransform: "capitalize",
            
            color: "#FFFFFF"}}
@@ -171,8 +168,7 @@ fontStyle: "normal",
 fontWeight: "600",
 fontSize: "22px",
 lineHeight: "30px",
-/* identical to box height, or 136% */
-// backgroundColor:"#1E1E1E",
+
 textTransform: "capitalize",
 
 color: "#FFFFFF"}} >How can i participate in ICO token sale?</Typography>
@@ -184,8 +180,7 @@ color: "#FFFFFF"}} >How can i participate in ICO token sale?</Typography>
            fontWeight: "400",
            fontSize: "14px",
            lineHeight: "26px",
-           /* identical to box height, or 136% */
-           // backgroundColor:"#1E1E1E",
+         
            textTransform: "capitalize",
            
            color: "#FFFFFF"}}
@@ -212,8 +207,7 @@ color: "#FFFFFF"}} >How can i participate in ICO token sale?</Typography>
           fontWeight: "600",
           fontSize: "22px",
           lineHeight: "30px",
-          /* identical to box height, or 136% */
-          // backgroundColor:"#1E1E1E",
+    
           textTransform: "capitalize",
           
           color: "#FFFFFF"}}
@@ -226,8 +220,7 @@ color: "#FFFFFF"}} >How can i participate in ICO token sale?</Typography>
            fontWeight: "400",
            fontSize: "14px",
            lineHeight: "26px",
-           /* identical to box height, or 136% */
-           // backgroundColor:"#1E1E1E",
+       
            textTransform: "capitalize",
            
            color: "#FFFFFF"}}

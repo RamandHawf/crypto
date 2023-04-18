@@ -5,14 +5,12 @@
     flex-direction: column;
     height: 805.21px;
     width: 100%;
-    /* justify-content: center; */
     align-items: center;
 
 
 }
 .one{
     margin-top: 100px;
-    /* background-color: aliceblue; */
     height: 76px;
     width: auto;
     font-family: 'MuseoModerno';
@@ -27,7 +25,6 @@ color: #FFFFFF;
 }
 .two
 {
-    /* background-color: blue; */
     width: 804px;
 height: 76px;
     width: auto;
@@ -40,12 +37,9 @@ color: #FFFFFF;
 
 }
 .three{
-    /* background-color:yellow; */
     margin-top: 40px;
-    /* height: auto; */
     height: 30px;
     width:  691px;
-    /* background-color: aliceblue; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -57,7 +51,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 30px;
-/* identical to box height, or 136% */
 
 text-transform: capitalize;
 
@@ -69,7 +62,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 30px;
-/* identical to box height, or 136% */
 
 text-transform: capitalize;
 
@@ -81,7 +73,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 30px;
-/* identical to box height, or 136% */
 
 text-transform: capitalize;
 
@@ -93,7 +84,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 30px;
-/* identical to box height, or 136% */
 
 text-transform: capitalize;
 
@@ -105,7 +95,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 30px;
-/* identical to box height, or 136% */
 
 text-transform: capitalize;
 
@@ -115,8 +104,7 @@ color: #FFFFFF;
 
 .four{
     
-    /* background-color: #FFFFFF;
-     */
+
     height: 270px;
     width: 926px;
     background-color: #1E1E1E;
@@ -124,8 +112,3 @@ color: #FFFFFF;
     margin-top: 60px;
 }
 
-/* @media screen and (max-width: 800px) {
-.faqparent{
-    margin-top: 200px;
-}
-} */

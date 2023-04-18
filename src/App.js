@@ -6,7 +6,7 @@ import Home from './Components/Home';
 import Aboutus from './Components/Aboutus';
 // import Responsive1 from './Components/responsive1';
 import Faq from './Components/Faq';
-import Join from './Components/Joinus';
+import Join from './Components/Join';
 
 function App() {
   return (

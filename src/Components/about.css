@@ -1,5 +1,4 @@
-/*Logoup is the child of root Parent */
-/*Logoup up following the flex approach and have one child with class pic and have within pic div we have img tag with logo */
+
 .aboutparent {
     margin-top: 177px;
     height: 1850px;
@@ -23,14 +22,12 @@
 }
 
 
-/**/
 .middlebodydata {
     margin-top: 120.21px;
     height: 361px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     flex-wrap: wrap;
 
   }
@@ -61,8 +58,6 @@
         height: 361px;
         width: 100%;
         display: flex;
-        /* flex-direction: row; */
-        /* justify-content: center; */
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -73,7 +68,6 @@
         margin-top: 230px;
         height: 361px;
         width: 519px;
-        /* justify-content: center; */
         border: 2px solid yellow;
         background-color: white;
         margin-left: 0px;
@@ -81,8 +75,6 @@
     .textdata {
         margin: 55px;
         margin-left: 60px;
-    /* font-family: 'MuseoModerno'; */
-
         height: 252px;
         width: 458px;
         display: flex;
@@ -130,7 +122,6 @@
       }
     
   }
- */
   
   .a {
     width: 117px;
@@ -276,18 +267,13 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
   }
-  /*Sample Code*/
   .parent {
 	display: flex;
     margin-top: -200px;
-			/* flex-wrap: wrap; */
 			flex-direction: row;
-			/* justify-content: start; */
 			align-items: center;
 			padding: 20px;
-			/* background-color: #eee; */
 }
 
 .child {
@@ -297,7 +283,6 @@
 			margin-left: 10px;
 			padding: 20px;
 			height: 200px;
-			/* background-color: #fff; */
 			text-align: center;
             border: 1px solid #2E2E2E;
             border-radius: 10px;
@@ -316,7 +301,6 @@
     }
     
     .child {
-        /* justify-content: center; */
         background-color: #1E1E1E;
 
         flex-basis: auto;
@@ -325,11 +309,9 @@
   .box1, .box2, .box3, .box4 {
     width: 292.5px;
     box-sizing: border-box;
-    /* right: 72.81%; */
     margin-top: 24px;
     margin-left: 24px;
-    /* top: 40.37%; */
-    /* bottom: 55.88%; */
+
     border: 1px solid #2E2E2E;
     border-radius: 10px;
   }
@@ -390,13 +372,11 @@
     opacity: 0.8;
   }
   
-  /* flex -container*/
 .flex-container{
     display: flex;
     flex-direction: row;
     margin-top: 67px;
     height: 297px;
-    /* background-color: #88D5DE; */
     width: 100%;
 }  
   
@@ -411,7 +391,6 @@
     margin: 5px;
     height: 297px;
     width: 100%;
-    /* background-color: azure; */
     
 }
 .mid > p{
@@ -425,7 +404,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 56px;
-/* or 156% */
 
 display: flex;
 align-items: center;
@@ -452,8 +430,7 @@ color: #FFFFFF;
     .left, .right, .mid{
        
         width: auto;
-        /* flex-shrink: auto; */
-        /* background-color: #FFFFFF; */
+
     }
     .mid{
         height: auto;
@@ -469,7 +446,6 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 36px;
     line-height: 56px;
-    /* or 156% */
     
     display: flex;
     align-items: center;
