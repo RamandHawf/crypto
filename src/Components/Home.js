@@ -1,6 +1,37 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
+import Lottie from "lottie-react";
+import animationsData from "./main.json";
 
 const Home = () => {
+  const [animationData, setAnimationData] = useState(null);
+
+  
+  useEffect(() => {
+    setAnimationData(animationsData);
+    console.log(animationData)
+    // Define the container element where the animation will be rendered
+    // const container = document.querySelector(".two");
+
+    // // Configure the animation options
+    // const options = {
+    //   animationData: animationData,
+    //   loop: true,
+    //   autoplay: true,
+    // };
+
+    // // Load and render the animation using Lottie
+    // const animation = Lottie.loadAnimation(options);
+    // animation.addEventListener("DOMLoaded", () => {
+    //   container.appendChild(animation.view);
+    // });
+
+    // // Clean up the animation when the component unmounts
+    // return () => {
+    //   animation.destroy();
+    // };
+  }, [animationData]);
+
+
     return (
 <>
         <div
@@ -11,17 +42,17 @@ const Home = () => {
           marginTop: "120px",
           height: "632px",
           width: "100%",
-          backgroundColor: "#1E1E1E",
+          backgroundColor: "#883DDE",
 
           //  textDecorationColor:'beige'
         }}
       >
-        <div className="one" style={{ width: "672px", height: "632px" }}>
+        <div className="one" style={{ width: "45%", height: "632px" }}>
           <div
             className="code1"
             style={{
               position: "absolute",
-              width: "317px",
+              width: "60%",
               height: "57px",
               color: "#883BDE",
               left: "86px",
@@ -42,7 +73,7 @@ const Home = () => {
             className="code2"
             style={{
               position: "absolute",
-              width: "544px",
+              width: "40%",
               height: "112px",
               left: "86px",
               top: "267px",
@@ -94,6 +125,8 @@ const Home = () => {
               height: "60px",
               left: "80px",
               top: "519px",
+              outline:"none",
+              border : "0px",
 
               background:
                 "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
@@ -262,8 +295,11 @@ const Home = () => {
         </div>
         <div
           className="two"
-          style={{ width: "768px", height: "632px", backgroundColor: "yellow" }}
+          style={{ width: "55%", height: "632px" }}
         >
+          {/* {animationData} */}
+                {animationData ? <Lottie  animationData={animationData} /> : 'Loading animation...'}
+
           {/* CRYPTO CONNECT */}
         </div>
 

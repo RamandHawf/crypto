@@ -20,8 +20,8 @@ const Aboutus = () => {
             in.....
           </div>
         </div>
-        <div class="logobottom">
-        <div class="pic">
+        <div className="logobottom">
+        <div className="pic">
           <img src="top.png" alt="top" />
         </div>
       </div>
@@ -45,29 +45,29 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div class="parent">
-		<div class="child">
+      <div className="parent">
+		<div className="child">
         <h1 className="ONEPAPER">ONE PAPER</h1>
 
 		</div>
 		
-		<div class="child">
+		<div className="child">
         <h1 className="whitepaper">WHITE PAPER</h1>
 
 		</div>
 		
-		<div class="child">
+		<div className="child">
         <h1 className="privacypolicy">PRIVACY POLICY</h1>
 
 		</div>
-		<div class="child">
+		<div className="child">
         <h1 className="coins">TERM OF COIN SALES</h1>
 
 		</div>
 	</div>
 
-    <div class="logobottom">
-        <div class="pic">
+    <div className="logobottom">
+        <div className="pic">
           <img src="top.png" alt="top" />
         </div>
       </div>
@@ -99,8 +99,8 @@ const Aboutus = () => {
             <div className  ="right"></div>
           
           </div>
-          <div class="logobottom">
-        <div class="pic">
+          <div className="logobottom">
+        <div className="pic">
           <img src="top.png" alt="top" />
         </div>
       </div>

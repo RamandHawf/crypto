@@ -1,0 +1,13 @@
+div > img{
+margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        /* margin-top: 500px; */
+        /* display: flex; */
+        flex-direction: column;
+      background-color: lightblue;
+    }
+    
+  }
