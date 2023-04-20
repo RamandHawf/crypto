@@ -40,8 +40,9 @@
   .videodata {
     height: 361px;
     width: 519px;
-    border: 2px solid yellow;
-    background-color: white;
+    /* border: 2px solid yellow; */
+
+    /* background-color: white; */
     margin-left: 172px;
   }
   

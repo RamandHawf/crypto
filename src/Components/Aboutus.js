@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
+// import exampleGif from './example.gif';
+
 const Aboutus = () => {
+  let animation ="https://i.gifer.com/SVKl.gif"; 
   return (
     <div className="aboutparent">
       <div className="logoup">
@@ -10,7 +13,13 @@ const Aboutus = () => {
       </div>
 
       <div className="middlebodydata">
-        <div className="videodata"></div>
+        <div className="videodata"  >
+
+        <img src={animation} alt="Example GIF" style={{
+          width:"100%",height:"100%"
+        }} />
+
+        </div>
         <div className="textdata">
           <div className="a">About Us</div>
           <div className="b">What is optimos?</div>
