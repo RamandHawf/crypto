@@ -5,7 +5,9 @@ import './join.css'
 const useStyles = makeStyles((theme) => ({
   container: {
     height: "100%",
-    backgroundColor: "#1E1E1E",
+    backgroundColor: "#1b192f",
+    background: "rgb(27,25,47)",
+    background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
     [theme.breakpoints.down("xs")]: {
       flexDirection: "column",
     },
@@ -48,7 +50,8 @@ function Join() {
           <div className="joined" style={{
             marginLeft: '190px', marginTop: '121px', display: "flex",
             flexDirection: 'column', justifyContent: 'flex-start',
-            backgroundColor: '',
+            backgroundColor: "#1b192f",
+           
             height: "320px", width: '572px'
           }}>
             <h1
@@ -109,7 +112,10 @@ function Join() {
       <div className="footer"
         style=
         {{
-          marginTop: '172px', height: "297px", width: '100%', backgroundColor: "rgba(136, 61, 222, 1)", display: "flex",
+          marginTop: '172px', height: "297px", width: '100%',
+          background: "rgb(39,37,52)",
+          background: "linear-gradient(90deg, rgba(39,37,52,1) 100%, rgba(1,5,64,1) 100%)",
+          display: "flex",
           flexDirection: 'row'
         }} >
         <div className="footone"
@@ -256,7 +262,9 @@ function Join() {
       </div>
 
       <div className="last" style={{
-        backgroundColor: "#883DDE",
+          backgroundColor: "#1b192f",
+          background: "rgb(39,37,52)",
+          background: "linear-gradient(90deg, rgba(39,37,52,1) 100%, rgba(1,5,64,1) 100%)",
         height: '46px',
         width: '100%',
         display: 'flex',

@@ -48,14 +48,18 @@ const Faq = () => {
     setExpanded(newExpanded ? panel : false);
   };
   return (
-    <div className="faqparent">
+    <div className="faqparent" style={{
+      backgroundColor: "#1b192f",
+      background: "rgb(27,25,47)",
+      background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
+    }}>
       <div className="one"> Have any Question? </div>
       <div className="two">
         {" "}
         Join the industry leaders to discuss where the market are heading we
         accept token payment{" "}
       </div>
-      <div className="three">
+      <div className="three" >
         <div className="First">General</div>
         <div className="Second">Pre ICO & ICO</div>
 
@@ -64,19 +68,28 @@ const Faq = () => {
         <div className="Fourth">Client</div>
         <div className="Fifth">Legal</div>
       </div>
-      <div className="four">
+      <div className="four"style={{
+                    backgroundColor: "#1b192f",
+                    background: "rgb(27,25,47)",
+                    background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
+                    
+        
+      }} >
         <Accordion
           sx={{
             marginTop: "10px",
-            backgroundColor: "#1E1E1E",
-            background: "rgba(255, 255, 255, 0.04)",
+            backgroundColor: "#1b192f",
+            background: "rgb(27,25,47)",
+            
             border: "1px solid rgba(255, 255, 255, 0.16)",
             borderRadius: "10px",
           }}
           expanded={expanded === "panel1"}
           onChange={handleChange("panel1")}
         >
-          <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+          <AccordionSummary sx={{
+            
+          }} aria-controls="panel1d-content" id="panel1d-header">
             <Typography
               sx={{
                 fontFamily: "MuseoModerno",
@@ -86,8 +99,10 @@ const Faq = () => {
                 lineHeight: "30px",
 
                 textTransform: "capitalize",
-
                 color: "#FFFFFF",
+
+                 // background: "rgb(27,25,47)",
+                // background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
               }}
             >
               What cryptocurrencies can i use to purchase?
@@ -103,7 +118,7 @@ const Faq = () => {
                 lineHeight: "26px",
 
                 textTransform: "capitalize",
-                background: "rgba(136, 59, 222, 0.08)",
+                // background: "rgba(136, 59, 222, 0.08)",
                 color: "#FFFFFF",
               }}
             >
@@ -118,9 +133,9 @@ const Faq = () => {
         <Accordion
           sx={{
             marginTop: "10px",
-            backgroundColor: "#1E1E1E",
-            background: "rgba(255, 255, 255, 0.04)",
+            backgroundColor: "#1b192f",
             border: "1px solid rgba(255, 255, 255, 0.16)",
+            
             borderRadius: "10px",
           }}
           expanded={expanded === "panel2"}
@@ -169,8 +184,8 @@ const Faq = () => {
         <Accordion
           sx={{
             marginTop: "10px",
-            backgroundColor: "#1E1E1E",
-            background: "rgba(255, 255, 255, 0.04)",
+            backgroundColor: "#1b192f",
+          
             border: "1px solid rgba(255, 255, 255, 0.16)",
             borderRadius: "10px",
           }}
@@ -187,8 +202,10 @@ const Faq = () => {
                 lineHeight: "30px",
 
                 textTransform: "capitalize",
-
                 color: "#FFFFFF",
+
+
+                
               }}
             >
               How can i participate in ICO token sale?
@@ -219,9 +236,10 @@ const Faq = () => {
         <Accordion
           sx={{
             marginTop: "10px",
-            backgroundColor: "#1E1E1E",
-            background: "rgba(255, 255, 255, 0.04)",
+            backgroundColor: "#1b192f",
+            
             border: "1px solid rgba(255, 255, 255, 0.16)",
+
             borderRadius: "10px",
           }}
           expanded={expanded === "panel4"}

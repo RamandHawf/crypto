@@ -29,7 +29,7 @@ const Home = () => {
     // return () => {
     //   animation.destroy();
     // };
-  }, [animationData]);
+  }, []);
 
 
     return (
@@ -39,10 +39,12 @@ const Home = () => {
         style={{
           display: "flex",
           flexDirection: "row",
-          marginTop: "120px",
-          height: "632px",
+          // marginTop: "120px",
+          height: "100%",
           width: "100%",
-          backgroundColor: "#883DDE",
+          backgroundColor: "#1b192f",
+          background: "rgb(27,25,47)",
+          background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
 
           //  textDecorationColor:'beige'
         }}
@@ -308,36 +310,54 @@ const Home = () => {
 
       </div>
     <div className='third' style={{
-        backgroundColor:'#1E1E1E',
-        position: "absolute",
+      // marginBottom:"110px",
+  backgroundColor: "#1b192f",
+  background: "rgb(27,25,47)",
+  background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
+// position: "absolute",
         width: "100%",
-        height: "177px",
+        height: "200px",
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
         // left: "4px",
         // top: "776px",
     }} >
 <div className='withinthird1' style={{
-    position: "absolute",
+  marginTop:"px",
     width: "246px",
     height: "25px",
-    left: "593px",
-    top: "0px",
+    // left: "593px",
+    // top: "0px",
     
     fontFamily: 'MuseoModerno',
     fontStyle: "normal",
     fontWeight: "400",
     fontSize: "16px",
     lineHeight: "25px",
-    display: "flex",
+    // display: "flex",
     alignItems: "center",
     textTransform: "capitalize",
     
     color: "#FFFFFF",
+    // marginBottom:"110px"
 }}>
 Powered By Amazing Investors
 </div>
 
+ 
+
+    </div>
+
+    <div style={{
+        height:"100px",      
+      // marginBottom:"50px",
+        backgroundColor: "#1b192f",
+        background: "rgb(27,25,47)",
+        background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
+    }}>
 <div className='flexforlogoicon' style={{
-    marginTop:"38.53px",
+    // marginTop:"50px",
     display:"flex",
     flexDirection:"row",
     height:"54px",
@@ -369,39 +389,7 @@ Powered By Amazing Investors
         width:"162px"
 }} />
 </div>
-{/* <div className='raiselogo' style={{
-    position: "absolute",
-    left: "24.02%",
-    right: "66.27%",
-    top: "47.57%",
-    bottom: "0%",
-}}>
-    <img src="raise.png" alt="raise" />
-     </div>
-     <div className='nyterlogo' style={{
-    position: "absolute",
-    left: "37.64%",
-    right: "56.64%",
-    top: "47.57%",
-    bottom: "0%",
-    
-}}>
-    <img src="nyter.png" alt="nyter" />
-     </div>
-     <div className='reniologo' style={{
-//    position: "absolute",
-   Left: "0.17%",
-   Right: "0.4%",
-   Top: "1.16%",
-   Bottom: "0.78%",
-   
-    
-    // background: "#FFFFFF",
-    
-}}>
-    <img src="renio.png" alt="raise" />
-     </div> */}
-    </div>
+</div>
       </>
     );
 }

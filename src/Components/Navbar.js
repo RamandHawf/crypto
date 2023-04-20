@@ -16,8 +16,10 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   appBar: {
+    width:"100%",
     height: 120,
-    backgroundColor: "#181818",
+    background: "rgb(31,24,75)",
+background: "linear-gradient(90deg, rgba(31,24,75,1) 100%, rgba(1,5,64,1) 100%)",
   },
   navContainer: {
     display: "flex",
@@ -29,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "none",
   },
   logo: {
+    
     marginRight: theme.spacing(2),
     '&:hover': {
       cursor: 'pointer',
