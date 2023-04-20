@@ -9,26 +9,7 @@ const Home = () => {
   useEffect(() => {
     setAnimationData(animationsData);
     console.log(animationData)
-    // Define the container element where the animation will be rendered
-    // const container = document.querySelector(".two");
-
-    // // Configure the animation options
-    // const options = {
-    //   animationData: animationData,
-    //   loop: true,
-    //   autoplay: true,
-    // };
-
-    // // Load and render the animation using Lottie
-    // const animation = Lottie.loadAnimation(options);
-    // animation.addEventListener("DOMLoaded", () => {
-    //   container.appendChild(animation.view);
-    // });
-
-    // // Clean up the animation when the component unmounts
-    // return () => {
-    //   animation.destroy();
-    // };
+    
   }, []);
 
 

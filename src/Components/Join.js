@@ -1,6 +1,10 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
+import Lottie from "lottie-react";
+
+import animationsData from "./main.json";
+
 import './join.css'
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -41,12 +45,17 @@ const useStyles = makeStyles((theme) => ({
 
 function Join() {
   const classes = useStyles();
+  const [animationData, setAnimationData] = useState(null);
 
+  useEffect(() => {
+    setAnimationData(animationsData);
+    console.log(animationData)
+    
+  }, []);
   return (
     <Grid container spacing={2} className={classes.container}>
       <Grid item xs={12} sm={6} className={classes.box1}>
         <div className={classes.box} style={{ backgroundColor: "" }}>
-          Box 1
           <div className="joined" style={{
             marginLeft: '190px', marginTop: '121px', display: "flex",
             flexDirection: 'column', justifyContent: 'flex-start',
@@ -105,7 +114,9 @@ function Join() {
       </Grid>
       <Grid item xs={12} sm={6} className={classes.box2}>
         <div className={classes.box} style={{ backgroundColor: "" }}>
-          Box 2
+          {/* <div></div> */}
+          {animationData ? <Lottie  animationData={animationData} /> : 'Loading animation...'}
+
         </div>
       </Grid>
 
