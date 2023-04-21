@@ -39,7 +39,8 @@
   
   .videodata {
     height: 361px;
-    width: 519px;
+    /* width: 50%; */
+    flex:1;
     /* border: 2px solid yellow; */
 
     /* background-color: white; */
@@ -50,7 +51,8 @@
     margin: 55px;
     margin-left: 120px;
     height: 252px;
-    width: 458px;
+    flex:1;
+    /* width: 50%; */
     display: flex;
     flex-direction: column;
   }
@@ -73,16 +75,16 @@
     .videodata {
         margin-top: 230px;
         height: 361px;
-        width: 519px;
-        border: 2px solid yellow;
-        background-color: white;
+        width: 50%;
+        /* border: 2px solid yellow;
+        background-color: white; */
         margin-left: 0px;
       }
     .textdata {
         margin: 55px;
         margin-left: 60px;
         height: 252px;
-        width: 458px;
+        width: 50%;
         display: flex;
         flex-direction: column;
       }
@@ -396,18 +398,21 @@
 .left{
     margin: 5px;
  height: 297px;
- width: 25%;
+ flex: 1;
+ /* width: 25%; */
  background-color: #C004DE;
 }
  
 .mid{
     margin: 5px;
     height: 297px;
-    width: 100%;
+    flex:3;
+    /* width: 100%; */
     
 }
 .mid > p{
-    width: 840px;
+    /* width: 840px; */
+    width: 100%;
 height: 224px;
 left: 300px;
 top: 2333px;
@@ -429,7 +434,8 @@ color: #FFFFFF;
 .right{
     margin: 5px;
     height: 297px;
-    width: 25%;
+    flex:1;
+    /* width: 25%; */
     background-color: #2E2E2E;
 }
   

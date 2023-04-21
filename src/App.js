@@ -1,17 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar';
-// import Aboutus from './Components/Aboutus';
+import Navbars from './Components/Navbars';
 import Home from './Components/Home';
 import Aboutus from './Components/Aboutus';
-// import Responsive1 from './Components/responsive1';
-import Faq from './Components/Faq';
+import Faq  from './Components/Faq';
 import Join from './Components/Join';
+
+
 
 function App() {
   return (
     <>
-    <Navbar/>
+    <Navbars/>
+    {/* <Navbar/> */}
     <Home/>
     <Aboutus/>
     <Faq/>
