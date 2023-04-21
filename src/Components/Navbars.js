@@ -6,6 +6,7 @@ const Navbars = () => {
       className="container"
       style={{
       
+        width:"100%",
         position:"fixed",
         height: "140px",
         display: "flex",
@@ -109,7 +110,7 @@ const Navbars = () => {
             
             marginTop: "25%",
             height: "10%",
-            width: "5%",
+            width: "6%",
           }}
           src="linkedin.png"
           alt="linkedin"
@@ -119,7 +120,7 @@ const Navbars = () => {
             marginTop: "25%",
 
             height: "10%",
-            width: "5%",
+            width: "6%",
           }}
           src="Discord.png"
           alt="Discord"
@@ -129,7 +130,7 @@ const Navbars = () => {
             marginTop: "25%",
 
             height: "10%",
-            width: "5%",
+            width: "6%",
           }}
           src="messenger.png"
           alt="linkedin"
@@ -139,7 +140,7 @@ const Navbars = () => {
             marginTop: "25%",
 
             height: "10%",
-            width: "5%",
+            width: "6%",
           }}
           src="twitter.png"
           alt="linkedin"
@@ -149,7 +150,7 @@ const Navbars = () => {
             marginTop: "25%",
 
             height: "10%",
-            width: "5%",
+            width: "6%",
           }}
           src="arrow.png"
           alt="linkedin"
