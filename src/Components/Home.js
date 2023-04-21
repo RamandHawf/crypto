@@ -24,10 +24,9 @@ const Home = () => {
           height: "100%",
           width: "100%",
           backgroundColor: "#1b192f",
+        
           background: "rgb(27,25,47)",
-          background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
-
-          //  textDecorationColor:'beige'
+        
         }}
       >
         <div className="one" style={{ width: "45%", height: "632px" }}>

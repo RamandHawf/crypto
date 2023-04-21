@@ -8,11 +8,17 @@ const Navbars = () => {
       
         width:"100%",
         position:"fixed",
+        backgroundBlendMode: 0,
         height: "140px",
         display: "flex",
         flexDirection:'row',
-        background:
-          "linear-gradient(90deg, rgba(31,24,75,1) 100%, rgba(1,5,64,1) 100%)",
+        // backgroundColor:"blue"
+        // backgroundColor:"#1f184b",
+        // backgroundColor: "#333", 
+        background: "rgb(31,24,75)",
+        // background: "linear-gradient(90deg, rgba(31,24,75,1) 84%, rgba(31,24,75,1) 100%, rgba(1,5,64,1) 100%)"
+        // background: "rgb(31,24,75)",
+        // background: "linear-gradient(90deg, rgba(31,24,75,1) 100%, rgba(1,5,64,1) 100%)",
       }}
     >
       <div
@@ -37,7 +43,7 @@ const Navbars = () => {
       <div
         className="two"
         style={{
-          flex: 3,
+          flex: 2,
           height: "100%",
           display: "flex",
           flexDirection: "row",
@@ -100,7 +106,7 @@ const Navbars = () => {
           flex: 1,
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-around",
+          justifyContent: "flex-end",
           marginRight: "30px",
           height:"100%",
         }}
@@ -108,7 +114,9 @@ const Navbars = () => {
         <img
           style={{
             
-            marginTop: "25%",
+            // marginTop: "25%",
+            marginTop: "12%",
+
             height: "10%",
             width: "6%",
           }}
@@ -117,7 +125,8 @@ const Navbars = () => {
         />
         <img
           style={{
-            marginTop: "25%",
+            marginTop: "12%",
+          
 
             height: "10%",
             width: "6%",
@@ -127,7 +136,8 @@ const Navbars = () => {
         />
         <img
           style={{
-            marginTop: "25%",
+            marginTop: "12%",
+
 
             height: "10%",
             width: "6%",
@@ -137,7 +147,7 @@ const Navbars = () => {
         />
         <img
           style={{
-            marginTop: "25%",
+            marginTop: "12%",
 
             height: "10%",
             width: "6%",
@@ -147,7 +157,8 @@ const Navbars = () => {
         />
         <img
           style={{
-            marginTop: "25%",
+            // marginTop: "25%",
+            marginTop: "12%",
 
             height: "10%",
             width: "6%",

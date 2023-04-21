@@ -38,7 +38,7 @@
   }
   
   .videodata {
-    height: 361px;
+    height: 351px;
     /* width: 50%; */
     flex:1;
     /* border: 2px solid yellow; */
@@ -400,7 +400,7 @@
  height: 297px;
  flex: 1;
  /* width: 25%; */
- background-color: #C004DE;
+ /* background-color: #C004DE; */
 }
  
 .mid{
@@ -436,7 +436,7 @@ color: #FFFFFF;
     height: 297px;
     flex:1;
     /* width: 25%; */
-    background-color: #2E2E2E;
+    /* background-color: #2E2E2E; */
 }
   
 @media screen and (max-width: 800px) {
