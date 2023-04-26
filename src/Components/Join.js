@@ -105,7 +105,13 @@ function Join() {
                 background: "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
                 boxShadow: "0px 4px 20px rgba(224, 50, 91, 0.09)",
                 borderRadius: "10px", width: "203px",
-                height: "60px"
+                height: "60px",
+                color:"white",
+                fontFamily: 'MuseoModerno',
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "16px",
+                lineHeight: "25px",
               }}
             >Join Community</button>
 

@@ -18,12 +18,13 @@ const Home = () => {
         <div
         className="container1"
         style={{
+   
           display: "flex",
           flexDirection: "row",
-          // marginTop: "120px",
-          height: "100%",
+
+          height: "auto",
           width: "100%",
-          backgroundColor: "#1b192f",
+          backgroundColor: "yellow",
         
           background: "rgb(27,25,47)",
         
@@ -114,6 +115,12 @@ const Home = () => {
                 "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
               boxShadow: "0px 4px 20px rgba(224, 50, 91, 0.09)",
               borderRadius: "10px",
+              color:"white",
+              fontFamily: 'MuseoModerno',
+              fontStyle: "normal",
+              fontWeight: "400",
+              fontSize: "16px",
+              lineHeight: "25px",
             }}
           >
             Read More
@@ -296,7 +303,7 @@ const Home = () => {
   background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
 // position: "absolute",
         width: "100%",
-        height: "200px",
+        height: "100px",
         display:'flex',
         flexDirection:'row',
         justifyContent:'center',
@@ -304,7 +311,7 @@ const Home = () => {
         // top: "776px",
     }} >
 <div className='withinthird1' style={{
-  marginTop:"px",
+  marginTop:"50px",
     width: "246px",
     height: "25px",
     // left: "593px",
@@ -331,18 +338,20 @@ Powered By Amazing Investors
 
     <div style={{
         height:"100px",      
-      // marginBottom:"50px",
+      //  backgroundColor:"yellow",
         backgroundColor: "#1b192f",
-        background: "rgb(27,25,47)",
-        background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
+        
+        // background: "rgb(27,25,47)",
+        // background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
     }}>
 <div className='flexforlogoicon' style={{
     // marginTop:"50px",
     display:"flex",
     flexDirection:"row",
+    justifyContent:'center',
     height:"54px",
-    width:"344px",
-    marginLeft:"349.18px"
+    width:"100%",
+    // marginLeft:"349.18px"
 }}
  >
     <img src="raise.png" alt="raise" style={{

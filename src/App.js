@@ -5,13 +5,16 @@ import Home from './Components/Home';
 import Aboutus from './Components/Aboutus';
 import Faq  from './Components/Faq';
 import Join from './Components/Join';
-
+import Flexes from './Components/Flexes'
+import Navbarone from './Components/navbarone';
 
 
 function App() {
   return (
     <>
-    <Navbars/>
+    {/* <Flexes/> */}
+    {/* <Navbars/> */}
+    <Navbarone/>
     {/* <Navbar/> */}
     <Home/>
     <Aboutus/>

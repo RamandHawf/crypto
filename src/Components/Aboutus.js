@@ -16,13 +16,13 @@ const Aboutus = () => {
         <div className="videodata"  >
 
         <img src={animation} alt="Example GIF" style={{
-          width:"100%",height:"100%"
+          width:"85%",height:"85%"
         }} />
 
         </div>
         <div className="textdata">
           <div className="a">About Us</div>
-          <div className="b">What is optimos?</div>
+          <div className="b">What Is optimos ?</div>
           <div className="c">
             Optimos offer music artists the ability to connect with each other
             along with investors and digitally exchange NFTs for their with

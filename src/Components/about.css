@@ -1,16 +1,17 @@
 
 .aboutparent {
-    /* margin-top: 177px; */
-    /* margin-top: 110px; */
-    height: 2050px;
+    /* margin-top: 300px; */
+    height: 1800px;
     width: 100%;
+    /* margin-top: 140px; */
     background-color: #1b192f;
     background: rgb(27,25,47);
     background: linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%);
     }
 .logoup {
 
-  /* margin-top: 110px; */
+
+  /* margin-top: 100px; */
   height: 12.73px;
   width: 100%;
   display: flex;
@@ -38,12 +39,8 @@
   }
   
   .videodata {
-    height: 351px;
-    /* width: 50%; */
+    height: 450px;
     flex:1;
-    /* border: 2px solid yellow; */
-
-    /* background-color: white; */
     margin-left: 172px;
   }
   
@@ -96,7 +93,7 @@
         font-weight: 700;
         font-size: 18px;
         line-height: 20px;
-        letter-spacing: 0.2em;
+        /* letter-spacing: 0.2em; */
         text-transform: uppercase;
         background: linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%), #C004DE;
         -webkit-background-clip: text;
@@ -139,17 +136,16 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    letter-spacing: 0.2em;
     text-transform: uppercase;
     background: linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%), #C004DE;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
   }
   
   .b {
-    margin-top: 0;
+    margin-top: 10px;
     width: 443px;
     height: 56px;
     font-family: 'MuseoModerno';
@@ -161,7 +157,7 @@
   }
   
   .c {
-    margin-top: 0;
+    margin-top: 10px;
     width: 443px;
     height: 152px;
     font-family: 'MuseoModerno';
@@ -174,6 +170,7 @@
   
 
   .logobottom {
+    margin-top: 70px;
     height: 12.73px;
     width: 100%;
     display: flex;
@@ -181,7 +178,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 120px;
+    /* margin-top: 120px; */
   }
   
   .pic {

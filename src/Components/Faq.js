@@ -6,6 +6,8 @@ import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import { IconButton } from '@mui/material';
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
@@ -20,7 +22,7 @@ const Accordion = styled((props) => (
 
 const AccordionSummary = styled((props) => (
   <MuiAccordionSummary
-    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />}
+    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem", color: "#fff" }} />}
     {...props}
   />
 ))(({ theme }) => ({
@@ -53,13 +55,13 @@ const Faq = () => {
       background: "rgb(27,25,47)",
       background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
     }}>
-      <div className="one"> Have any Question? </div>
+      <div className="one11"> Have any Question? </div>
       <div className="two">
         {" "}
         Join the industry leaders to discuss where the market are heading we
         accept token payment{" "}
       </div>
-      <div className="three" >
+      <div className="three1" >
         <div className="First">General</div>
         <div className="Second">Pre ICO & ICO</div>
 
@@ -77,6 +79,7 @@ const Faq = () => {
       }} >
         <Accordion
           sx={{
+            color: "white",
             marginTop: "10px",
             backgroundColor: "#1b192f",
             background: "rgb(27,25,47)",
@@ -192,7 +195,7 @@ const Faq = () => {
           expanded={expanded === "panel3"}
           onChange={handleChange("panel3")}
         >
-          <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+          <AccordionSummary sx={{color:"white"}} aria-controls="panel3d-content" id="panel3d-header">
             <Typography
               sx={{
                 fontFamily: "MuseoModerno",
@@ -211,7 +214,7 @@ const Faq = () => {
               How can i participate in ICO token sale?
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails  >
             <Typography
               sx={{
                 fontFamily: "MuseoModerno",
@@ -248,6 +251,7 @@ const Faq = () => {
           <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
             <Typography
               sx={{
+                
                 fontFamily: "MuseoModerno",
                 fontStyle: "normal",
                 fontWeight: "600",
@@ -282,10 +286,11 @@ const Faq = () => {
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
               eget.
             </Typography>
+      
           </AccordionDetails>
         </Accordion>
       </div>
-      <div className="logobottom">
+      <div className="logobottom1">
         <div className="pic">
           <img src="top.png" alt="top" />
         </div>

@@ -1,24 +1,19 @@
 import React from "react";
+import './navbar-css/navbar.module.css';
 
 const Navbars = () => {
   return (
     <div
       className="container"
-      style={{
-      
+      style=
+      {{
         width:"100%",
         position:"fixed",
-        backgroundBlendMode: 0,
         height: "140px",
         display: "flex",
         flexDirection:'row',
-        // backgroundColor:"blue"
-        // backgroundColor:"#1f184b",
-        // backgroundColor: "#333", 
         background: "rgb(31,24,75)",
-        // background: "linear-gradient(90deg, rgba(31,24,75,1) 84%, rgba(31,24,75,1) 100%, rgba(1,5,64,1) 100%)"
-        // background: "rgb(31,24,75)",
-        // background: "linear-gradient(90deg, rgba(31,24,75,1) 100%, rgba(1,5,64,1) 100%)",
+      
       }}
     >
       <div
@@ -32,7 +27,7 @@ const Navbars = () => {
           <img
             style={{
          
-              marginLeft:"25%",
+              marginLeft:"18%",
               marginBottom: "30%"
               
             }}
@@ -67,8 +62,17 @@ const Navbars = () => {
             fontSize: "20px",
           }}
         >
-          Features
+          FAQ
         </div>
+
+        <div
+          style={{
+            fontFamily: "MuseoModerno",
+            color: "white",
+            fontSize: "20px",
+          }}
+        >
+          Join Us        </div>
 
         <div
           style={{
@@ -80,25 +84,7 @@ const Navbars = () => {
           Optimos Docs
         </div>
 
-        <div
-          style={{
-            fontFamily: "MuseoModerno",
-            color: "white",
-            fontSize: "20px",
-          }}
-        >
-          Team
-        </div>
-
-        <div
-          style={{
-            fontFamily: "MuseoModerno",
-            color: "white",
-            fontSize: "20px",
-          }}
-        >
-          FAQ
-        </div>
+        
       </div>
       <div
         className="three"
