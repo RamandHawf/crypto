@@ -45,7 +45,7 @@ const Home = () => {
               style={matches === true  ? { width: "1400px", marginTop: "-500px", marginLeft: '-400px' }
             : { width: "1500px", marginTop: "-400px", marginLeft: '-3c00px' }
             }
-              animationData={animationData}
+              
             />
           ) : (
             "Loading animation..."
