@@ -1,8 +1,11 @@
 import React from "react";
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 import "./about.css";
 // import exampleGif from './example.gif';
 
 const Aboutus = () => {
+  const matches = useMediaQuery('(max-width: 678px)');
   let animation ="https://i.gifer.com/SVKl.gif"; 
   return (
     <div className="aboutparent">
@@ -15,9 +18,10 @@ const Aboutus = () => {
       <div className="middlebodydata">
         <div className="videodata"  >
 
-        <img src={animation} alt="Example GIF" style={{
-          width:"85%",height:"85%"
-        }} />
+        <img src={animation} alt="Example GIF"    style={matches === true  ? 
+        { width:"400px",height:"300px" }
+        : {  width:"85%",height:"85%" }
+        } />
 
         </div>
         <div className="textdata">
@@ -29,11 +33,12 @@ const Aboutus = () => {
             in.....
           </div>
         </div>
-        <div className="logobottom">
+    
+      </div>
+          <div className="logobottom12">
         <div className="pic">
           <img src="top.png" alt="top" />
         </div>
-      </div>
       </div>
 
    
@@ -75,25 +80,12 @@ const Aboutus = () => {
 		</div>
 	</div>
 
-    <div className="logobottom">
+    <div className="logobottom13">
         <div className="pic">
           <img src="top.png" alt="top" />
         </div>
       </div>
-      {/* <div className="boxes">
-            <div className="box1">
-              <h1 className="ONEPAPER">ONE PAPER</h1>
-            </div>
-            <div className="box2">
-              <h1 className="whitepaper">WHITE PAPER</h1>
-            </div>
-            <div className="box3">
-              <h1 className="privacypolicy">PRIVACY POLICY</h1>
-            </div>
-            <div className="box4">
-              <h1 className="coins">TERM OF COIN SALES</h1>
-            </div>
-          </div> */}
+  
 
           <div className="flex-container" >
             <div className  ="left">
@@ -108,7 +100,7 @@ const Aboutus = () => {
             <div className  ="right"></div>
           
           </div>
-          <div className="logobottom">
+          <div className="logobottom14">
         <div className="pic">
           <img src="top.png" alt="top" />
         </div>

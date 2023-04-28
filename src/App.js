@@ -18,8 +18,8 @@ function App() {
     {/* <Navbar/> */}
     <Home/>
     <Aboutus/>
-    <Faq/>
-    <Join/>
+    {/* <Faq/>
+    <Join/> */}
     {/* <Responsive1/> */}
     </>
   );

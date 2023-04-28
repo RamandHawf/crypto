@@ -1,7 +1,7 @@
 /* Default styles */
-.container {
+.container11 {
     z-index: 1000;
-    position : fixed;   
+    position: fixed;
     width: 100%;
     height: 140px;
     display: flex;
@@ -9,78 +9,165 @@
     justify-content: center;
     align-items: center;
     background: rgb(31, 24, 75);
-  }
-  
-  .one {
+}
+
+.one11 {
+    width: 100%;
     margin-left: 2%;
+    height: 100%;
     flex: 1;
-    align-items: stretch;
-  }
-  
-  .one > img {
+
+}
+
+.one11>img {
     /* margin-left: 18%; */
-  }
-  
-  .two {
-    /* height: auto; */
-    padding-top: 50px;
-    flex: 2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-  }
-  
-  .two div {
+    height: 50px;
+    width: 180px;
+    justify-content: center;
+
+}
+
+.one11>a {
+    display:none;
+    margin-top: 40px;
+    margin-left: 30px;
+    align-items: center;
     font-family: MuseoModerno;
     color: white;
     font-size: 20px;
-  }
-  
-  .three {
+
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.icon i.fa-bars {
+    font-size: 20px;
+}
+
+.two111 {
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.two111>div {
+    margin-top: 50px;
+    align-items: center;
+    font-family: MuseoModerno;
+    color: white;
+    font-size: 20px;
+}
+
+
+.three11 {
     flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: stretch;
-    
+
     /* align-items: center; */
     margin-right: 30px;
     /* height: 100%; */
-  }
-  
-  .three > img {
+}
+
+
+
+.three11>img {
     /* margin-top: 12%; */
     height: 20px;
     width: 20px;
-  }
-  
-  /* Media query for small screens */
-  @media (max-width: 600px) {
-    .container {
-      height: auto;
-      flex-direction: column;
+}
+
+/* Media query for small screens */
+@media (max-width: 678px) {
+    .container11 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+        /* center content horizontally */
+        justify-content: center;
+        /* center content vertically */
     }
-    
-    .one img {
-      margin-left: 10%;
-      /* margin-top: 5%; */
-      margin-bottom: 10%;
+
+    .one11 {
+       
+       width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+        margin-left: 20px;
+        align-items: flex-start;
     }
-    
-    .two {
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 5%;
+
+    .one11>img {
+        margin-top: 10px;
+        height: 35px;
+        width: 130px;
     }
-    
-    .two div {
-      margin-bottom: 5%;
+
+    .one11>a {
+        display: block;
+        margin-top: 18px;
+        /* margin-left: 30px; */
+        float: right;
+        /* font-family: MuseoModerno; */
+        color: yellow;
+        font-size: 20px;
+        margin-left: 340px;
+
     }
-    
-    .three {
-      display: none;
+
+    .icon i {
+        font-size: 37px;
+        cursor: pointer;
     }
-  }
-  
-  
+
+    .icon i.fa-bars {
+        font-size: 37px;
+    }
+
+    .two111 {
+        margin-top: 0px;
+        width: 100%;
+     
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3%;
+        opacity: 1;
+        /*fully visible on :hover*/
+        transition: all 2s;
+    }
+
+    .two111>div {
+        margin-top: 35px;
+        opacity: 1;
+        /*fully visible on :hover*/
+        transition: all 2s;
+        /* justify-content: center; */
+        /* margin-bottom: 2%; */
+    }
+
+    .twohide {
+        display: none;
+        opacity: 1;
+        /*fully visible on :hover*/
+        transition: all 2s;
+    }
+
+    .three11 {
+        /* width: 100%; */
+        margin-top: 10px;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+}

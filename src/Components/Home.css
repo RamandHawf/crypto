@@ -1,0 +1,446 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    width: 100%;
+    background-color: yellow;
+  
+    background: rgb(27,25,47);
+  
+  }
+
+  .one12{
+    margin-left: 60px;
+    margin-top: 200px;
+    width: 45%; height: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .code1{
+    
+
+        margin-top: 10px;
+        /* width: 400px; */
+        color: #883BDE;
+  
+        font-family: Museomoderno;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 57px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+      
+
+  }
+
+  .code2{
+    
+       margin-top: 10px;
+       
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        /* or 117% */
+
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    
+  }
+
+  .code3
+  {
+          
+      margin-top: 10px;
+   
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+      
+  }
+
+  .one12 > button {
+      
+         
+        margin-top: 35px;
+        width: 173px;
+        height: 60px;
+  
+        outline:none;
+        border : 0px;
+
+        background:
+          linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%);
+        box-shadow: 0px 4px 20px rgba(224, 50, 91, 0.09);
+        border-radius: 10px;
+        color:white;
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+      
+  }
+  .frame8{
+         margin-top: 35px;
+           /* margin-left: 40px; */
+           display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+
+        width: 281px;
+        height: 46px;
+        left: 80px;
+        top: 619px;
+     
+  }
+
+  .frame8 > .eclipse1{
+
+        width: 40px;
+        height: 40px;
+
+        /* background: url(), #D9D9D9; */
+        border: 1px solid #FFFFFF;
+
+        /* Inside auto layout */
+        border-radius: 50%;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px -20px;
+
+  }
+  .frame8 > .eclipse2{
+
+    width: 40px;
+    height: 40px;
+
+    /* background: url(), #D9D9D9; */
+    border: 1px solid #FFFFFF;
+
+    /* Inside auto layout */
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -20px;
+
+}
+.frame8 > .eclipse3{
+
+    width: 40px;
+    height: 40px;
+
+    /* background: url(), #D9D9D9; */
+    border: 1px solid #FFFFFF;
+
+    /* Inside auto layout */
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -20px;
+
+}
+.frame8 > .eclipse4{
+
+    width: 40px;
+    height: 40px;
+
+    /* background: url(), #D9D9D9; */
+    border: 1px solid #FFFFFF;
+
+    /* Inside auto layout */
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -20px;
+
+}
+.communityquantityinf8{
+    
+        display: flex;
+        margin-left:20px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 147px;
+        height: 46px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+     
+}
+
+.communityquantityinf8 > h1 {
+    
+        width: 57px;
+        height: 38px;
+        
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: -14px 0px;
+       }
+
+       .communityquantityinf8 > h2
+       {
+        width: 147px;
+        height: 22px;
+        
+        font-family: MuseoModerno;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+       margin: 14px 0px
+       }
+
+       .two12{
+
+         width: 55%; height: 632px;
+       }
+
+       .third12{
+        
+    
+            background-color: #1b192f;
+            background: rgb(27,25,47);
+            background: linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%);
+          
+                  width: 100%;
+                  height: 100px;
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  
+             
+       }
+
+       .third12 > .withinthird1{
+       
+            margin-top:50px;
+              width: 246px;
+              height: 25px;
+          
+              
+              font-family: MuseoModerno;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 25px;
+          
+              align-items: center;
+              text-transform: capitalize;
+              
+              color: #FFFFFF;
+          
+          
+       }
+       
+       .flexforlogoicon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        background-color: #1b192f;
+    }
+    
+    .flexforlogoicon img {
+        height: 54px;
+    }
+    
+    .flexforlogoicon img:first-child {
+        width: 139.1px;
+    }
+    
+    .flexforlogoicon img:nth-child(2) {
+        margin-left: 56px;
+        width: 81.84px;
+    }
+    
+    .flexforlogoicon img:nth-child(3) {
+        margin-left: 56px;
+        width: 192.30px;
+    }
+    
+    .flexforlogoicon img:last-child {
+        margin-left: 56px;
+        width: 162px;
+    }
+    
+
+
+    @media (max-width: 678px) {
+        .container1{
+            
+            display: flex;
+            flex-direction: column;
+        
+            height: auto;
+            width: 100%;
+            /* background-color: yellow; */
+          
+            background: rgb(27,25,47);
+          
+          }
+    
+         
+
+          .one12{
+            /* margin-left: 60px; */
+            margin-top: 200px;
+            width: 90%; height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+        
+          .code1{
+            
+        
+                margin-top: 10px;
+                width: 400px;
+                color: #883BDE;
+          
+                font-family: Museomoderno;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 57px;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+              
+        
+          }
+        
+          .code2{
+            
+               margin-top: 10px;
+               
+                font-family: MuseoModerno;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 56px;
+                /* or 117% */
+        
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+        
+                color: #FFFFFF;
+            
+          }
+        
+          .code3
+          {
+                  
+              margin-top: 10px;
+           
+                font-family: MuseoModerno;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 28px;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+        
+                color: #FFFFFF;
+              
+          }
+          .two12{
+
+            width: 100%; height: 600px;
+          }
+
+          .flexforlogoicon {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            width: 100%;
+            background-color: #1b192f;
+            /* margin-bottom: 100px; */
+        }
+
+        .flexforlogoicon img {
+          height: 54px;
+      }
+      
+      .flexforlogoicon img:first-child {
+        margin-top: 20px;
+          width: 139.1px;
+      }
+      
+      .flexforlogoicon img:nth-child(2) {
+        margin-top: 32px;
+          
+        margin-left: 56px;
+          width: 81.84px;
+      }
+      
+      .flexforlogoicon img:nth-child(3) {
+        margin-top: 32px;
+        
+        margin-left: 56px;
+          width: 192.30px;
+      }
+      
+      .flexforlogoicon img:last-child {
+        margin-top: 32px;
+        
+        margin-left: 56px;
+          width: 162px;
+      }
+    }

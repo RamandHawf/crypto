@@ -12,7 +12,7 @@
 
 
   /* margin-top: 100px; */
-  height: 12.73px;
+  height: 100px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -39,7 +39,9 @@
   }
   
   .videodata {
+
     height: 450px;
+    /* width: 100%; */
     flex:1;
     margin-left: 172px;
   }
@@ -54,79 +56,7 @@
     flex-direction: column;
   }
 
-  @media only screen and (max-width: 768px) {
-    .videodata .textdata {
-      width: calc(50% - 20px);
-    }
-    .middlebodydata {
-        margin-top: 220.21px;
-        height: 361px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    
-      }
-    .videodata {
-        margin-top: 230px;
-        height: 361px;
-        width: 50%;
-        /* border: 2px solid yellow;
-        background-color: white; */
-        margin-left: 0px;
-      }
-    .textdata {
-        margin: 55px;
-        margin-left: 60px;
-        height: 252px;
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-      }
-      .a {
-        width: 117px;
-        height: 20px;
-        font-family: 'MuseoModerno';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 20px;
-        /* letter-spacing: 0.2em; */
-        text-transform: uppercase;
-        background: linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%), #C004DE;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-      }
-      
-      .b {
-        margin-top: 0;
-        width: 443px;
-        height: 56px;
-        font-family: 'MuseoModerno';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 56px;
-        color: #FFFFFF;
-      }
-      
-      .c {
-        margin-top: 0;
-        width: 443px;
-        height: 152px;
-        font-family: 'MuseoModerno';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 38px;
-        color: rgba(255, 255, 255, 0.9);
-      }
-    
-  }
+ 
   
   .a {
     width: 117px;
@@ -168,9 +98,41 @@
     color: rgba(255, 255, 255, 0.9);
   }
   
-
-  .logobottom {
+  .logobottom13 {
     margin-top: 70px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* margin-top: 120px; */
+  }
+  .logobottom13 > .pic{
+    margin-top: 50px;
+    height: 12.17px;
+  }
+  
+
+  .logobottom14 {
+    background-color: #1b192f;
+    margin-top: -105px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* margin-top: 120px; */
+  }
+  .logobottom14 >.pic{
+    height: 12.17px;;
+    /* margin-top: 150px; */
+  }
+  .logobottom12 {
+    margin-top: 150px;
     height: 12.73px;
     width: 100%;
     display: flex;
@@ -189,7 +151,7 @@
 
 
 .documentData {
-    margin-top: 240.21px;
+    margin-top: 120.21px;
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -199,49 +161,38 @@
   }
 
 
-  @media only screen and (max-width: 700px) {
 
-    .documentData {
-        margin-top: 440.21px;
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-      }
-
-  }
 
   .dd1 {
-    width: 1242px;
+    width: 100%;
     height: 372px;
   }
   .dd1child-pf1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
   }
 
   .hedaingofdocument {
+    text-align: center;
+
     margin: 0;
     padding: 0;
-    width: 238px;
-    height: 56px;
+    width: 100%;
+    height: auto;
     font-family: 'MuseoModerno';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
-    display: flex;
-    align-items: center;
     text-transform: capitalize;
     color: #FFFFFF;
   }
   .dd1child-pf2 {
-    margin-top: 0px;
+
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -252,7 +203,7 @@
   .hedaingofdocumentdetail {
     margin: 0;
     padding: 0;
-    width: 1065px;
+    width: 100%;
     height: 76px;
     font-family: 'MuseoModerno';
     font-style: normal;
@@ -279,6 +230,7 @@
     /* background-color: #1b192f; */
 
 	display: flex;
+   height: auto; 
     margin-top: -200px;
 			flex-direction: row;
 			align-items: center;
@@ -286,6 +238,8 @@
 }
 
 .child {
+   width: 100%;
+   height: 100%;
   background-color: #1b192f;
 
 	margin-top: 20px;
@@ -294,42 +248,28 @@
 			padding: 20px;
 			height: 200px;
 			text-align: center;
-            border: 1px solid #2E2E2E;
+            border: 1px solid wheat;
             border-radius: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    .aboutparent {
-        margin-top: 177px;
-        height: auto;
-        width: 100%;
-        background-color: #1E1E1E;
-        }
-    .parent {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    
-    .child {
-        background-color: #1E1E1E;
-
-        flex-basis: auto;
-    }
-}
   .box1, .box2, .box3, .box4 {
     /* background-color: white; */
 
-    width: 292.5px;
+    width: 100%;
+    height: 100%;
+    
+    background-color: #88D5DE;
+
     box-sizing: border-box;
     margin-top: 24px;
     margin-left: 24px;
 
-    border: 1px solid #2E2E2E;
+    /* border: 1px solid #2E2E2E; */
     border-radius: 10px;
   }
   
   .ONEPAPER {
-    margin: 25%;
+    /* margin: 25%; */
     width: 136px;
     height: 32px;
     font-family: 'MuseoModerno';
@@ -359,7 +299,7 @@
   
   .privacypolicy {
     padding: 0;
-    margin-top: 25%;
+    /* margin-top: 25%; */
     font-family: 'MuseoModerno';
     font-style: normal;
     font-weight: 600;
@@ -372,7 +312,7 @@
   }
   .coins {
     padding: 0;
-    margin-top: 25%;
+    /* margin-top: 25%; */
     font-family: 'MuseoModerno';
     font-style: normal;
     font-weight: 600;
@@ -387,7 +327,7 @@
 .flex-container{
     display: flex;
     flex-direction: row;
-    margin-top: 67px;
+    margin-top: 17px;
     height: 297px;
     width: 100%;
 }  
@@ -436,38 +376,221 @@ color: #FFFFFF;
     /* background-color: #2E2E2E; */
 }
   
-@media screen and (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
+
+
+  @media (max-width: 678px) {
+
+    .aboutparent {
+      margin-top: -10px;
       height: auto;
-      background-color: #1E1E1E;
+      width: 100%;
+      /* margin-top: 140px; */
+      background-color: #1b192f;
+      background: rgb(27,25,47);
+      background: linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%);
+      }
 
-    }
-    .left, .right, .mid{
-       
-        width: auto;
+      .logoup {
 
-    }
-    .mid{
+
         height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+
+      .pic{
+        margin-top: 100px;
+      }
+      .middlebodydata {
+        margin-top: 120.21px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+      }
+
+      .videodata {
+        height: auto;
+        width: 100%;
+        /* margin-left: 172px; */
+      }
+      
+      .textdata {
+        
+      
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      .logobottom12 {
+        margin-top: 20px;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+   
+      }
+      
+   
+      .logobottom12 > .pic > img{
+        align-items: center;
+      
+      }
+
+
+
+      .documentData {
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+    
+     
+    .parent {
+      width: 100%;
+      height: 776px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* align-items: stretch; */
     }
-    .mid > p{
-        width: auto;
-    height: auto;
-    left: 300px;
-    top: 2333px;
     
-    font-family: 'MuseoModerno';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 56px;
+    .child {
+        
+        /* height: 200px; */
+        width: 292.50px;
+        height: 276px;
+       
+      
     
+        /* margin-right: 100px; */
+        /* background-color: #1E1E1E; */
+        /* background-color: #88D5DE; */
+        /* background-color: #C004DE; */
+        border: 1px solid white;
+    
+    }
+    .box1, .box2, .box3, .box4 {
+      /* background-color: white; */
+  
+      
+      box-sizing: border-box;
+      /* margin-top: 24px;
+      margin-left: 24px; */
+  
+     
+      border-radius: 10px;
+    }
+
+
+    .flex-container{
+      margin-top: 120px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      /* margin-top: 297px; */
+      height: 260px;
+      width: 100%;
+  }  
+    
+  .left{
+      margin: 5px;
+   height: 297px;
+   flex: 1;
+   /* width: 25%; */
+   /* background-color: #C004DE; */
+  }
+   
+  .mid{
+      margin: 5px;
+      height: 197px;
+      flex:2;
+      /* width: 100%; */
+      
+  }
+  .mid > p{
+      /* width: 840px; */
+      width: 100%;
+  height: 224px;
+
+  
+  font-family: 'MuseoModerno';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 56px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  
+  color: #FFFFFF;
+  }
+  
+  .right{
+      margin: 5px;
+      height: 297px;
+      flex:1;
+      /* width: 25%; */
+      /* background-color: #2E2E2E; */
+  }
+
+  .logobottom13 {
+    background-color: #1b192f;
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    
-    color: #FFFFFF;
-    } 
+    align-content: center;
+    /* margin-top: 120px; */
+  }
+  .logobottom13 > .pic {
+    /* margin-top: 120px; */
+    height: 12.17px;
+    /* margin-bottom: -50px; */
+    /* width: 100%; */
+
+  }
+  .logobottom14 {
+    background-color: #1b192f;
+    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* margin-top: 120px; */
+  }
+  .logobottom14 > .pic {
+    /* margin-top: 120px; */
+    height: 12.17px;
+    /* margin-bottom: -50px; */
+    /* width: 100%; */
+
+  }
+
   }
