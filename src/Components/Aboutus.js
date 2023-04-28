@@ -19,7 +19,7 @@ const Aboutus = () => {
         <div className="videodata"  >
 
         <img src={animation} alt="Example GIF"    style={matches === true  ? 
-        { width:"400px",height:"300px" }
+        { marginLeft:"-200px",width:"436px",height:"376px" }
         : {  width:"85%",height:"85%" }
         } />
 

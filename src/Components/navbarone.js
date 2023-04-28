@@ -28,7 +28,7 @@ const Navbarone = () => {
         <div  >Optimos Docs</div>
     
       </div>
-      <div className="three11">
+      <div className={matches === true && show === false ? `twohide` : 'three11'}>
         <img src="linkedin.png" alt="linkedin" />
         <img src="Discord.png" alt="Discord" />
         <img src="messenger.png" alt="messenger" />

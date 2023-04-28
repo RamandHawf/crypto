@@ -7,9 +7,7 @@ import "./Home.css";
 const Home = () => {
   const matches = useMediaQuery('(max-width: 678px)');
   const [animationData, setAnimationData] = useState(null);
-  const options = {
-    scale: 2,
-  };
+
   useEffect(() => {
     setAnimationData(animationsData);
     console.log(animationData);
@@ -41,13 +39,14 @@ const Home = () => {
         <div className="two12">
           {animationData ? (
             <Lottie
-          
-              style={matches === true  ? { width: "1400px", marginTop: "-500px", marginLeft: '-400px' }
-            : { width: "1500px", marginTop: "-400px", marginLeft: '-3c00px' }
+             
+              style={matches === true  ? { width: "100%",height:"100%", marginTop: "0px", marginLeft: '0px' }
+            : { width: "1500px", marginTop: "-400px", marginLeft: '-300px' }
             }
-              
+            animationData= {animationData}
+            
             />
-          ) : (
+            ) : (
             "Loading animation..."
           )}
         </div>

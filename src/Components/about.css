@@ -117,8 +117,8 @@
 
   .logobottom14 {
     background-color: #1b192f;
-    margin-top: -105px;
-    height: 400px;
+    margin-top: -30px;
+    height: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -412,31 +412,79 @@ color: #FFFFFF;
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center; */
+        justify-content: flex-start;
     
       }
 
       .videodata {
-        flex:1;
+        /* flex:1; */
+        /* width: 100px; */
+        /* align-items: center; */
         height: auto;
         /* width: 100%; */
         /* margin-left: 172px; */
       }
       
       .textdata {
-        
-        flex: 1;
+        /* margin-left: 1px; */
+        /* flex: 1; */
+        /* width: 100%; */
         height: auto;
         /* width: 100%; */
         display: flex;
         flex-direction: column;
+        /* justify-content: ; */
       }
+
+      .a {
+
+        /* width: 300px; */
+        height: 20px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: uppercase;
+        background: linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%), #C004DE;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      .b {
+        width: 300px;
+        margin-top: 40px;
+        width: 90%;
+        height: 56px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        color: #FFFFFF;
+      }
+      
+      .c {
+        margin-top: 40px;
+        width: 100%;
+        height: 152px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 38px;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    
+    
 
 
       .logobottom12 {
-        margin-top: 20px;
-        height: 100px;
+        margin-top: 100px;
+        height: 50px;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -463,8 +511,51 @@ color: #FFFFFF;
         align-content: center;
         align-items: center;
       }
+ 
+      .dd1 {
+        width: 100%;
+        height: 500px;
+      }
+      .dd1child-pf1 {
+        /* margin-top: 30px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
     
-     
+ 
+      .dd1child-pf1 > .hedaingofdocument{
+      /* margin-top: 20px; */
+      /* background-color: #88D5DE; */
+    }
+    .dd1child-pf2 {
+
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+  
+    .hedaingofdocumentdetail {
+      margin-top: 30px;
+      padding: 0;
+      width: 100%;
+      height: 76px;
+      font-family: 'MuseoModerno';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 38px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+    }
     .parent {
       /* width: 100%; */
       height: 776px;
@@ -503,13 +594,11 @@ color: #FFFFFF;
 
 
     .flex-container{
-      margin-top: 120px;
+
       display: flex;
       flex-direction: row;
       justify-content: center;
-
-      /* margin-top: 297px; */
-      height: 260px;
+      height: 360px;
       width: 100%;
   }  
     
@@ -536,11 +625,11 @@ color: #FFFFFF;
   
   font-family: 'MuseoModerno';
   font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 56px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
   
-  display: flex;
+  /* display: flex; */
   align-items: center;
   text-align: center;
   text-transform: capitalize;
@@ -557,9 +646,22 @@ color: #FFFFFF;
   }
 
   .logobottom13 {
+    /* height: 100px; */
     background-color: #1b192f;
-    margin-top: 30px;
-    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+
+  .logobottom14 
+  {
+    margin-top: -200px;
+    background-color: #1b192f;
+    height: 200px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -568,31 +670,7 @@ color: #FFFFFF;
     align-content: center;
     /* margin-top: 120px; */
   }
-  .logobottom13 > .pic {
-    /* margin-top: 120px; */
-    height: 12.17px;
-    /* margin-bottom: -50px; */
-    /* width: 100%; */
 
-  }
-  .logobottom14 {
-    background-color: #1b192f;
-    margin-top: 30px;
-    height: 250px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    /* margin-top: 120px; */
-  }
-  .logobottom14 > .pic {
-    /* margin-top: 120px; */
-    height: 12.17px;
-    /* margin-bottom: -50px; */
-    /* width: 100%; */
 
-  }
 
   }
