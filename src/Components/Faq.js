@@ -1,11 +1,15 @@
 import React from "react";
 import "./faq.css";
 import { styled } from "@mui/material/styles";
+import { useTheme } from "@material-ui/core/styles";
+
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import MuiAccordion from "@mui/material/Accordion";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { IconButton } from '@mui/material';
 const Accordion = styled((props) => (
@@ -44,17 +48,16 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 const Faq = () => {
+  const theme = useTheme();
+  const matches = useMediaQuery('(max-width: 678px)');
+
   const [expanded, setExpanded] = React.useState("panel1");
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
   return (
-    <div className="faqparent" style={{
-      backgroundColor: "#1b192f",
-      background: "rgb(27,25,47)",
-      background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
-    }}>
+    <div className="faqparent" >
       <div className="one11"> Have any Question? </div>
       <div className="two">
         {" "}
@@ -77,19 +80,25 @@ const Faq = () => {
                     
         
       }} >
-        <Accordion
-          sx={{
-            color: "white",
-            marginTop: "10px",
-            backgroundColor: "#1b192f",
-            background: "rgb(27,25,47)",
-            
-            border: "1px solid rgba(255, 255, 255, 0.16)",
-            borderRadius: "10px",
-          }}
-          expanded={expanded === "panel1"}
-          onChange={handleChange("panel1")}
-        >
+    <Accordion
+      sx={{
+        color: "white",
+        marginTop: "10px",
+        backgroundColor: "#1b192f",
+        background: "rgb(27,25,47)",
+        border: "1px solid rgba(255, 255, 255, 0.16)",
+        borderRadius: "10px",
+        [theme.breakpoints.down("sm")]: {
+          marginTop: "5px",
+        // backgroundColor: "yellow",
+        width: "auto",
+          
+          borderRadius: "5px",
+        },
+      }}
+      expanded={expanded === "panel1"}
+      onChange={handleChange("panel1")}
+    >
           <AccordionSummary sx={{
             
           }} aria-controls="panel1d-content" id="panel1d-header">

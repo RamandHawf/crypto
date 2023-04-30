@@ -1,20 +1,21 @@
 .faqparent {
     
-    margin-top:200px;
+    /* margin-top:200px; */
     /* background-color: aliceblue; */
     background-color:#1b192f;
     background: rgb(27,25,47);
     background: linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%);
     display: flex;
     flex-direction: column;
-    height: 100%;
+    justify-content: center;
+    height: 850px;
     width: 100%;
     align-items: center;
 
 
 }
 .one11{
-    /* margin-top: 100px; */
+    /* margin-top: -100px; */
     height: 76px;
     width: auto;
     font-family: 'MuseoModerno';
@@ -24,12 +25,15 @@ font-size: 48px;
 line-height: 56px;
 display: flex;
 align-items: center;
+justify-content: center;
 text-transform: capitalize;
 color: #FFFFFF;
 }
 .two
 {
+    margin-top: -150px;
     /* width: 804px; */
+    /* margin-top: 80px; */
 height: 76px;
     width: auto;
     font-family: 'MuseoModerno';
@@ -41,7 +45,7 @@ color: #FFFFFF;
 
 }
 .three1{
-    margin-top: 40px;
+    margin-top: 10px;
     height: 30px;
     width:  45%;
     display: flex;
@@ -118,5 +122,150 @@ color: #FFFFFF;
 }
 
 .logobottom1{
-    margin-top: 150px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+
+@media (max-width: 678px) {
+
+    .faqparent {
+    
+        /* margin-top:200px; */
+        /* background-color: aliceblue; */
+        background-color:#1b192f;
+        background: rgb(27,25,47);
+        background: linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    
+    
+    }
+
+    .one11{
+        /* margin-top: -100px; */
+        height: 76px;
+        width: auto;
+        font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+
+    .two
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    /* width: 804px; */
+    /* margin-top: 80px; */
+height: 46px;
+    width: auto;
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+
+}
+.three1{
+
+    margin-top: 80px;
+    height: 80px;
+    width:  auto;
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    justify-content: space-around;
+             
+}
+
+.First{
+    /* margin: 10px */
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+margin: 10px;
+
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Second{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* margin: 10px; */
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Third{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+margin: 10px;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Fourth{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+margin: 10px;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.Fifth{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+margin: 10px;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.four{
+    
+
+    height: auto;
+
+    width: auto;
+    background-color: #1E1E1E;
+    
+    margin-top: 0px;
+}
+
+.logobottom1{
+    height: 200px;
+    margin-top: 0px;
+}
 }

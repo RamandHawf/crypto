@@ -1,6 +1,8 @@
 import React,{useEffect,useState} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 import Lottie from "lottie-react";
 
 import animationsData from "./main.json";
@@ -8,28 +10,43 @@ import animationsData from "./main.json";
 import './join.css'
 const useStyles = makeStyles((theme) => ({
   container: {
+    // width:"100%",
     height: "100%",
     backgroundColor: "#1b192f",
     background: "rgb(27,25,47)",
     background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)",
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down("sm")]: {
+
       flexDirection: "column",
+      justifyContent:"center"
     },
   },
   box: {
+   
+    display:"flex",
     height: 500,
     [theme.breakpoints.down("xs")]: {
-
-      height: "747px",
+       
+      height: "auto",
       marginBottom: theme.spacing(2),
+    },
+    [theme.breakpoints.down("sm")]: {
+    
+      flexDirection: "column",
+      justifyContent:"center"
     },
   },
   box1: {
     flex: 1,
     [theme.breakpoints.down("xs")]: {
       height: '747px',
-      flex: "none",
+      // flex: "none",
       width: "100%",
+    },
+    [theme.breakpoints.down("sm")]: {
+
+     height:"auto",
+     width:"100%"
     },
   },
   box2: {
@@ -40,10 +57,17 @@ const useStyles = makeStyles((theme) => ({
       flex: "none",
       width: "100%",
     },
+    [theme.breakpoints.down("sm")]: {
+
+      height:"auto",
+      width:"100%"
+     },
   },
 }));
 
 function Join() {
+  const matches = useMediaQuery('(max-width: 678px)');
+
   const classes = useStyles();
   const [animationData, setAnimationData] = useState(null);
 
@@ -56,30 +80,54 @@ function Join() {
     <Grid container spacing={2} className={classes.container}>
       <Grid item xs={12} sm={6} className={classes.box1}>
         <div className={classes.box} style={{ backgroundColor: "" }}>
-          <div className="joined" style={{
+          <div className="joined" style={ matches ===true ? { 
+             marginTop: '10px', display: "flex",
+            flexDirection: 'column', justifyContent: 'center',
+            alignItems:"center",
+            backgroundColor: "",
+            width:"100%",
+           
+            height: "auto"
+          }: { 
             marginLeft: '190px', marginTop: '121px', display: "flex",
             flexDirection: 'column', justifyContent: 'flex-start',
             backgroundColor: "#1b192f",
            
             height: "320px", width: '572px'
-          }}>
+          }    }>
             <h1
-              style={{
-                fontFamily: 'MuseoModerno',
-                fontStyle: "normal",
-                fontWeight: "700",
-                fontSize: "48px",
-                lineHeight: "56px",
+              style={matches === true ? 
+                {
+                  // textAlign:"center",
+                  fontFamily: 'MuseoModerno',
+                  fontStyle: "normal",
+                  fontWeight: "300",alignItems:"center",
+                  fontSize: "38px",
+                  lineHeight: "46px",
+  
 
-                display: "flex",
-                alignItems: "center",
-                textTransform: "capitalize",
-
-                color: "#FFFFFF",
-              }}
+                  textTransform: "capitalize",
+  
+                  color: "#FFFFFF",
+                } : {
+                  // textAlign:"center",
+                  fontFamily: 'MuseoModerno',
+                  fontStyle: "normal",
+                  fontWeight: "700",justifyContent:"center",
+                  fontSize: "48px",
+                  lineHeight: "56px",
+  
+                  display: "flex",
+  
+                  alignItems: "center",
+                  textTransform: "capitalize",
+  
+                  color: "#FFFFFF",
+                }}
             >Join Our community</h1>
 
-            <p style={{
+            <p style={matches === true ? {
+              margin:"20px",
               fontFamily: 'MuseoModerno',
               fontStyle: "normal",
               fontWeight: "400",
@@ -87,11 +135,25 @@ function Join() {
               lineHeight: "25px",
 
               display: "flex",
+              justifyContent:"center",
               alignItems: "center",
               textTransform: "capitalize",
 
               color: "#FFFFFF",
-            }} >
+            } : {
+              fontFamily: 'MuseoModerno',
+              fontStyle: "normal",
+              fontWeight: "400",
+              fontSize: "16px",
+              lineHeight: "25px",
+
+              display: "flex",
+              justifyContent:"center",
+              alignItems: "center",
+              textTransform: "capitalize",
+
+              color: "#FFFFFF",
+            } } >
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quas,
               est dignissimos iste accusamus corporis error,
               nisi reprehenderit molestias odit impedit, pariatur quod. Facilis ducimus,
@@ -99,20 +161,41 @@ function Join() {
 
             </p>
             <button
-              style={{
-                margin: 0,
-                padding: 0,
-                background: "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
-                boxShadow: "0px 4px 20px rgba(224, 50, 91, 0.09)",
-                borderRadius: "10px", width: "203px",
-                height: "60px",
-                color:"white",
-                fontFamily: 'MuseoModerno',
-                fontStyle: "normal",
-                fontWeight: "400",
-                fontSize: "16px",
-                lineHeight: "25px",
-              }}
+              style={matches===true ? 
+                {
+                  margin: 0,
+                  padding: 0,
+                  background: "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
+                  boxShadow: "0px 4px 20px rgba(224, 50, 91, 0.09)",
+                  borderRadius: "10px", 
+                  marginRight:"230px",
+                  height: "40px",
+                  width:"150px",
+                  justifyContent:"flex-start",
+                  alignContent:"flex-start",
+                  alignItems:"flex-start",
+                  color:"white",
+                  fontFamily: 'MuseoModerno',
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  fontSize: "16px",
+                  lineHeight: "25px",
+                  // height:"40px",
+                } : 
+                {
+                  margin: 0,
+                  padding: 0,
+                  background: "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
+                  boxShadow: "0px 4px 20px rgba(224, 50, 91, 0.09)",
+                  borderRadius: "10px", width: "203px",
+                  height: "60px",
+                  color:"white",
+                  fontFamily: 'MuseoModerno',
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  fontSize: "16px",
+                  lineHeight: "25px",
+                }}
             >Join Community</button>
 
           </div>
@@ -128,7 +211,16 @@ function Join() {
 
       <div className="footer"
         style=
-        {{
+        {matches ===true ? {
+          marginTop: '172px', height: "auto", width: '100%',
+          background: "rgb(39,37,52)",
+          background: "linear-gradient(90deg, rgba(39,37,52,1) 100%, rgba(1,5,64,1) 100%)",
+          display: "flex",
+          flexDirection: 'column',
+          justifyContent:"flex-start"
+          // justifyContent:"fle",
+        
+        }:{
           marginTop: '172px', height: "297px", width: '100%',
           background: "rgb(39,37,52)",
           background: "linear-gradient(90deg, rgba(39,37,52,1) 100%, rgba(1,5,64,1) 100%)",
@@ -136,8 +228,27 @@ function Join() {
           flexDirection: 'row'
         }} >
         <div className="footone"
-          style={{ flex: "1" }} >
+          style={matches===true ? { width:"100%",height:"auto" } :{ flex: "1" }} >
           <h1 style={
+            matches===true ?
+            {
+              marginLeft:"20px",
+              padding: 0,
+              // marginLeft: '82px',
+              marginTop: "80px",
+              fontFamily: 'MuseoModerno',
+              fontStyle: "normal",
+              fontWeight: "400",
+              fontSize: "20px",
+              lineHeight: "30px",
+
+              textTransform: "capitalize",
+
+              color: "#FFFFFF",
+
+              opacity: "0.8",
+
+            } :
             {
               padding: 0,
               marginLeft: '82px',
@@ -156,7 +267,23 @@ function Join() {
 
             }} > Don't miss out, Stay Updated </h1>
           <p
-            style={{
+            style={matches === true ? {
+              width:"100%",
+              // margin:"20px",
+              // marginLeft:"90px",
+              
+              fontFamily: 'MuseoModerno',
+              fontStyle: "normal",
+              fontWeight: "300",
+              fontSize: "16px",
+              lineHeight: "20px",
+              marginLeft:"20px",
+
+
+              color: "#F6F6F6",
+
+              opacity: "0.8",
+            }:{
               marginLeft: "82px",
               fontFamily: 'MuseoModerno',
               fontStyle: "normal",
@@ -171,7 +298,21 @@ function Join() {
             }}
           > Don't hesitate to subscribe to latest news about optimus </p>
 
-          <div style={{
+          <div style={matches===true ? {
+            width: "80%",
+            marginLeft:"20px",
+            marginRight:"20px",
+            height: "46px",
+            display:"flesx",
+            flexDirection:"row", 
+            // justifyContent:"center",
+            // alignItems:"center",
+            borderRadius: "10px",
+
+           
+            backgroundColor: 'white',
+          } :
+          {
             width: "464px",
             height: "46px",
 
@@ -180,7 +321,21 @@ function Join() {
             backgroundColor: 'white',
           }} >
             <input type="text"
-              style={{
+              style={matches === true ?{
+                marginTop:"5px",
+                fontSize: '20px',
+                fontFamily: 'MuseoModerno',
+                height: "36px",
+                width: "70%",
+                background: "#FFFFFF",
+                color: 'black',
+                // backgroundColor:"silver",
+                opacity: 0.8,
+                borderRadius: "10px",
+                border: '0px solid',
+                outline: 'none'
+
+              } :{
                 fontSize: '20px',
                 fontFamily: 'MuseoModerno',
                 height: "36px",
@@ -195,7 +350,30 @@ function Join() {
               }}
             />
             <button style={
-              {
+              matches===true ?{
+                marginTop: '2px',
+                marginRight: '2px',
+                verticalAlign: 'center',
+                float: 'right',
+
+                height: "42px",
+                width: '96px',
+                fontFamily: 'MuseoModerno',
+                fontStyle: "normal",
+                fontWeight: "600",
+                fontSize: "16px",
+                lineHeight: "22px",
+
+                textTransform: "capitalize",
+
+
+                color: "#FFFFFF",
+                border: '0px solid',
+                outline: 'none',
+
+                background: "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
+                borderRadius: "10px",
+              }:{
                 marginTop: '2px',
                 marginRight: '2px',
                 verticalAlign: 'center',
@@ -218,15 +396,38 @@ function Join() {
 
                 background: "linear-gradient(68.58deg, #883BDE 9%, #88D5DE 97.66%)",
                 borderRadius: "10px",
-              }} >Subscribe</button>
+              } } >Subscribe</button>
           </div>
 
 
         </div>
         <div className="foottwo"
-          style={{ flex: "1" }}
+          style={matches===true ? { width:"100%",height: "auto", display:"flex" ,
+        flexDirection:"column"
+        } : { flex: "1" }}
         >
-          <p style={{
+          <p style={matches===true ?{
+            // width:"300px",
+            marginTop: '60px',
+            fontFamily: 'MuseoModerno',
+            fontStyle: "normal",
+            fontWeight: "400",
+            fontSize: "16px",
+            lineHeight: "26px",
+            /* or 162% */ 
+            marginLeft: "20px",
+            marginRight:"20px",
+
+            // width: '460px',
+            height: '78px',
+            color: "#F6F6F6",
+
+            opacity: "0.8",
+
+
+
+          } :
+          {
             marginLeft: "115px", marginTop: '60px',
             fontFamily: 'MuseoModerno',
             fontStyle: "normal",
@@ -243,18 +444,19 @@ function Join() {
 
 
 
-          }} >Don't hesitate to subscribe to latest news about optimos
+          } } >Don't hesitate to subscribe to latest news about optimos
             predict as well as crucial financial knowledge to become
             successful investors globally
           </p>
           <div className="icons social media"
             style={{
               display: 'flex',
-              flexDirection: 'row'
+              flexDirection: 'row',
+              justifyContent:"center"
             }}
           >
             <div style={{
-              marginLeft: '121px'
+              // marginLeft: '121px'
             }}>
 
               <img style={{

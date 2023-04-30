@@ -67,12 +67,14 @@
 
 .three11 {
     flex: 1;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: stretch;
+    /* align-items: stretch; */
 
-    /* align-items: center; */
+
+    /* align-items: center; */margin-left: 10px;
     margin-right: 30px;
     /* height: 100%; */
 }
@@ -80,8 +82,11 @@
 
 
 .three11>img {
+    /* width: auto; */
     /* margin-top: 12%; */
     height: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 10px; */
     width: 20px;
 }
 
