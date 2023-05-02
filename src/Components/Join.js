@@ -334,7 +334,7 @@ function Join() {
                 fontSize: '20px',
                 fontFamily: 'MuseoModerno',
                 height: "36px",
-                width: "70%",
+                width: "auto",
                 background: "#FFFFFF",
                 color: 'black',
                 // backgroundColor:"silver",
@@ -358,14 +358,16 @@ function Join() {
               }}
             />
             <button style={
-              matches===true ?{
+              matches===true ? {
                 marginTop: '2px',
                 marginRight: '2px',
                 verticalAlign: 'center',
                 float: 'right',
+                paddingLeft:"3px",
+                paddingRight:"3px",
 
                 height: "42px",
-                width: '96px',
+                width: 'auto',
                 fontFamily: 'MuseoModerno',
                 fontStyle: "normal",
                 fontWeight: "600",

@@ -41,7 +41,7 @@ const Home = () => {
           {animationData ? (
             <Lottie
              
-              style={matches === true  ? { width: "100%",height:"100%", marginTop: "0px", marginLeft: '0px' }
+              style={matches === true  ? { width: "100%",height:"100%", marginBottom: "100px", marginLeft: '0px' }
             : { width: "100%", height:"100%" }
             }
             animationData= {animationData}
