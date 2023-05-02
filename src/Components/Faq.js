@@ -9,6 +9,8 @@ import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import useMediaQuery from '@mui/material/useMediaQuery';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
 
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { IconButton } from '@mui/material';
@@ -34,7 +36,8 @@ const AccordionSummary = styled((props) => (
     theme.palette.mode === "dark"
       ? "rgba(255, 255, 255, .05)"
       : "rgba(0, 0, 0, .03)",
-  flexDirection: "row-reverse",
+  flexDirection: "row",
+  justifyContent: "space-between",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
   },
@@ -42,6 +45,7 @@ const AccordionSummary = styled((props) => (
     marginLeft: theme.spacing(1),
   },
 }));
+
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
@@ -96,6 +100,7 @@ const Faq = () => {
           borderRadius: "5px",
         },
       }}
+      // expandIcon={<ExpandMoreIcon />}
       expanded={expanded === "panel1"}
       onChange={handleChange("panel1")}
     >
@@ -116,6 +121,8 @@ const Faq = () => {
                  // background: "rgb(27,25,47)",
                 // background: "linear-gradient(90deg, rgba(27,25,47,1) 48%, rgba(27,25,47,1) 73%, rgba(27,25,47,1) 77%, rgba(44,48,94,1) 100%, rgba(0,212,255,1) 100%)"
               }}
+ 
+              
             >
               What cryptocurrencies can i use to purchase?
             </Typography>
