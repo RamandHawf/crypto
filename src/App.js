@@ -7,6 +7,8 @@ import Faq  from './Components/Faq';
 import Join from './Components/Join';
 import Flexes from './Components/Flexes'
 import Navbarone from './Components/navbarone';
+// import Responsive1 from './Components/responsive1';
+
 
 
 function App() {

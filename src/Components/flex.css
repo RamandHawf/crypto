@@ -5,8 +5,8 @@
     justify-content: center;
     /* align-content: flex-start; */
 
-
-    width: auto;
+height: auto;
+    width: 100%;
 
 }
 
@@ -14,9 +14,9 @@
     justify-content: space-evenly;
     border-radius: 10px;
     border: 1px solid #883BDE;
-    width: 25%;
+    width: 20%;
     background-color: aliceblue;
-    height: auto;
+    height: 300px;
     margin: 5px 5px;
 
 }
@@ -47,13 +47,24 @@
 
 @media only screen and (max-width: 768px) {
     .container {
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: auto;
 
     }
 
     .item {
-        margin: 10px 10px;
+        width: auto;
+        margin-right:40px;
+        margin-left:40px;
+        height: 200px;
+        /* margin:10px 40px 40px 10px; */
+        /* margin-right: 40px;
+        margin-left: 40px; */
         background-color: whitesmoke;
         border: 1px solid #883BDE
     }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 import useMediaQuery from '@mui/material/useMediaQuery';
-import animationsData from "./main.json";
+import animationsData from "./faq.json";
 import "./Home.css";
 
 const Home = () => {
@@ -37,11 +37,12 @@ const Home = () => {
           </div>
         </div>
         <div className="two12">
+          <div className="wrapper" >
           {animationData ? (
             <Lottie
              
               style={matches === true  ? { width: "100%",height:"100%", marginTop: "0px", marginLeft: '0px' }
-            : { width: "1500px", marginTop: "-400px", marginLeft: '-300px' }
+            : { width: "100%", height:"100%" }
             }
             animationData= {animationData}
             
@@ -49,6 +50,7 @@ const Home = () => {
             ) : (
             "Loading animation..."
           )}
+          </div>
         </div>
       </div>
       <div className="third12">

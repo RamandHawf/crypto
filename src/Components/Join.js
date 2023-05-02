@@ -4,8 +4,9 @@ import { Grid } from "@material-ui/core";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 import Lottie from "lottie-react";
-
-import animationsData from "./main.json";
+// import useMediaQuery from '@mui/material/useMediaQuery';
+// 
+import animationsData from "./databottom.json";
 
 import './join.css'
 const useStyles = makeStyles((theme) => ({
@@ -22,18 +23,18 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   box: {
-   
+    width:"auto", 
     display:"flex",
     height: 500,
     [theme.breakpoints.down("xs")]: {
-       
+      width:"auto", 
       height: "auto",
       marginBottom: theme.spacing(2),
     },
     [theme.breakpoints.down("sm")]: {
-    
       flexDirection: "column",
-      justifyContent:"center"
+      justifyContent:"center",
+      width:"auto"
     },
   },
   box1: {
@@ -46,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
 
      height:"auto",
-     width:"100%"
+     width:"auto"
     },
   },
   box2: {
@@ -60,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
 
       height:"auto",
-      width:"100%"
+      width:"auto"
      },
   },
 }));
@@ -77,7 +78,7 @@ function Join() {
     
   }, []);
   return (
-    <Grid container spacing={2} className={classes.container}>
+    <Grid container  className={classes.container}>
       <Grid item xs={12} sm={6} className={classes.box1}>
         <div className={classes.box} style={{ backgroundColor: "" }}>
           <div className="joined" style={ matches ===true ? { 
@@ -85,7 +86,7 @@ function Join() {
             flexDirection: 'column', justifyContent: 'center',
             alignItems:"center",
             backgroundColor: "",
-            width:"100%",
+            width:"auto",
            
             height: "auto"
           }: { 
@@ -153,7 +154,7 @@ function Join() {
               textTransform: "capitalize",
 
               color: "#FFFFFF",
-            } } >
+            } } >1122
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quas,
               est dignissimos iste accusamus corporis error,
               nisi reprehenderit molestias odit impedit, pariatur quod. Facilis ducimus,
@@ -204,7 +205,12 @@ function Join() {
       <Grid item xs={12} sm={6} className={classes.box2}>
         <div className={classes.box} style={{ backgroundColor: "" }}>
           {/* <div></div> */}
-          {animationData ? <Lottie  animationData={animationData} /> : 'Loading animation...'}
+          {animationData ? <Lottie  animationData={animationData}  style={matches===true?{
+            marginLeft:"0px"
+          }:{
+            marginLeft:"80px"
+
+          }}   /> : 'Loading animation...'}
 
         </div>
       </Grid>
@@ -212,7 +218,7 @@ function Join() {
       <div className="footer"
         style=
         {matches ===true ? {
-          marginTop: '172px', height: "auto", width: '100%',
+          marginTop: '172px', height: "auto", width: 'auto',
           background: "rgb(39,37,52)",
           background: "linear-gradient(90deg, rgba(39,37,52,1) 100%, rgba(1,5,64,1) 100%)",
           display: "flex",
@@ -220,7 +226,9 @@ function Join() {
           justifyContent:"flex-start"
           // justifyContent:"fle",
         
-        }:{
+        }
+        :
+        {
           marginTop: '172px', height: "297px", width: '100%',
           background: "rgb(39,37,52)",
           background: "linear-gradient(90deg, rgba(39,37,52,1) 100%, rgba(1,5,64,1) 100%)",
@@ -228,7 +236,7 @@ function Join() {
           flexDirection: 'row'
         }} >
         <div className="footone"
-          style={matches===true ? { width:"100%",height:"auto" } :{ flex: "1" }} >
+          style={matches===true ? { width:"auto",height:"auto" } :{ flex: "1" }} >
           <h1 style={
             matches===true ?
             {
@@ -299,7 +307,7 @@ function Join() {
           > Don't hesitate to subscribe to latest news about optimus </p>
 
           <div style={matches===true ? {
-            width: "80%",
+            width: "auto",
             marginLeft:"20px",
             marginRight:"20px",
             height: "46px",
@@ -402,7 +410,7 @@ function Join() {
 
         </div>
         <div className="foottwo"
-          style={matches===true ? { width:"100%",height: "auto", display:"flex" ,
+          style={matches===true ? { width:"auto",height: "auto", display:"flex" ,
         flexDirection:"column"
         } : { flex: "1" }}
         >
@@ -449,15 +457,21 @@ function Join() {
             successful investors globally
           </p>
           <div className="icons social media"
-            style={{
+            style={matches===true ?{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent:"center"
+              
+            } : {
               display: 'flex',
               flexDirection: 'row',
               justifyContent:"center"
             }}
           >
-            <div style={{
-              // marginLeft: '121px'
-            }}>
+            <div style={ matches===true ? {
+              marginTop:"20px"
+              //  marginLeft: '121px'
+            }: { } }>
 
               <img style={{
                 // backgroundColor:'white'

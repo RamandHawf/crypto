@@ -58,8 +58,8 @@ const Faq = () => {
   };
   return (
     <div className="faqparent" >
-      <div className="one11"> Have any Question? </div>
-      <div className="two">
+      <div className="one112"> Have any Question? </div>
+      <div className="two112">
         {" "}
         Join the industry leaders to discuss where the market are heading we
         accept token payment{" "}
@@ -133,7 +133,7 @@ const Faq = () => {
                 // background: "rgba(136, 59, 222, 0.08)",
                 color: "#FFFFFF",
               }}
-            >
+            > 1122:
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
               eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -184,7 +184,7 @@ const Faq = () => {
 
                 color: "#FFFFFF",
               }}
-            >
+            > 2211
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
               eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -237,6 +237,7 @@ const Faq = () => {
                 color: "#FFFFFF",
               }}
             >
+              3311
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
               eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -289,6 +290,7 @@ const Faq = () => {
                 color: "#FFFFFF",
               }}
             >
+              4411
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
               eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -299,10 +301,9 @@ const Faq = () => {
           </AccordionDetails>
         </Accordion>
       </div>
-      <div className="logobottom1">
-        <div className="pic">
+      <div className="logobottom112">
+     
           <img src="top.png" alt="top" />
-        </div>
       </div>
     </div>
   );

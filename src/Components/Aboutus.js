@@ -1,10 +1,25 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import useMediaQuery from '@mui/material/useMediaQuery';
+import Lottie from "lottie-react";
+
+import leftData from "./leftdata.json";
+import rightData from "./rightdata.json";
 
 import "./about.css";
 // import exampleGif from './example.gif';
 
 const Aboutus = () => {
+  const [animationDataleft, setAnimationDataleft] = useState(null);
+  const [animationDataright, setAnimationDataright] = useState(null);
+
+
+  useEffect(() => {
+    setAnimationDataleft(leftData);
+    setAnimationDataright(rightData);
+
+    // console.log(animationData)
+    
+  }, []);
   const matches = useMediaQuery('(max-width: 678px)');
   let animation ="https://i.gifer.com/SVKl.gif"; 
   return (
@@ -19,7 +34,7 @@ const Aboutus = () => {
         <div className="videodata"  >
 
         <img src={animation} alt="Example GIF"    style={matches === true  ? 
-        { marginLeft:"-150px",width:"370px",height:"340px" }
+        { marginLeft:"-100px",width:"270px",height:"240px" }
         : {  width:"85%",height:"85%" }
         } />
 
@@ -59,37 +74,39 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div className="parent">
-		<div className="child">
+      <div className="parentk">
+		<div className="childk">
         <h1 className="ONEPAPER">ONE PAPER</h1>
 
 		</div>
 		
-		<div className="child">
+		<div className="childk">
         <h1 className="whitepaper">WHITE PAPER</h1>
 
 		</div>
 		
-		<div className="child">
+		<div className="childk">
         <h1 className="privacypolicy">PRIVACY POLICY</h1>
 
 		</div>
-		<div className="child">
+		<div className="childk">
         <h1 className="coins">TERM OF COIN SALES</h1>
 
 		</div>
 	</div>
 
     <div className="logobottom13">
-        <div className="pic">
+        
           <img src="top.png" alt="top" />
-        </div>
       </div>
   
 
           <div className="flex-container" >
             <div className  ="left">
+   <div className ="wrapperleft" >
+   {/* {animationDataleft ? <Lottie  animationData={animationDataleft}  style={{width:"100%" ,height:"100%"  }}  /> : 'Loading animation...'} */}
 
+   </div>
             </div>
             <div className  ="mid">
                 <p>SUPPORTED BY THE GLOBAL #LUNATIC COOMMUNITY,
@@ -97,13 +114,17 @@ const Aboutus = () => {
                     PROJECTS ACROSS DEFI, GAMING AND NFTs
                 </p>
             </div>
-            <div className  ="right"></div>
+            <div className  ="right">
+           <div className="wrapperright" ></div>
+           {/* {animationDataright ? <Lottie  animationData={animationDataright}  style={{width:"200px" ,height:"200px"}}  /> : 'Loading animation...'} */}
+            </div>
+            {/* {animationDataright ? <Lottie  animationData={animationDataright} /> : 'Loading animation...'} */}
           
           </div>
           <div className="logobottom14">
-        <div className="pic">
+
           <img src="top.png" alt="top" />
-        </div>
+       
       </div>
           
     </div>
