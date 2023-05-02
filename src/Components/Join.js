@@ -276,7 +276,7 @@ function Join() {
             }} > Don't miss out, Stay Updated </h1>
           <p
             style={matches === true ? {
-              width:"100%",
+              width:"auto",
               // margin:"20px",
               // marginLeft:"90px",
               

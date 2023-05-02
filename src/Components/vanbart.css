@@ -98,7 +98,7 @@
 /* Media query for small screens */
 @media (max-width: 678px) {
     .container11 {
-        width: auto;
+        width: 100%;
         height: auto;
         display: flex;
         position: fixed;
@@ -120,6 +120,7 @@
     }
 
     .one11>img {
+        /* background-color: aliceblue; */
         margin-top: 10px;
         height: 35px;
         width: auto;
@@ -138,6 +139,7 @@
     }
 
     .icon i {
+        /* background-color: antiquewhite; */
         font-size: 37px;
         cursor: pointer;
     }
@@ -168,7 +170,7 @@
     }
 
     .twohide {
-        width:100%;
+        width:auto;
         display: none;
         opacity: 1;
         /*fully visible on :hover*/
