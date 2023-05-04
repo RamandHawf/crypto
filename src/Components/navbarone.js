@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import './vanbart.css'
+import './CSS-files/vanbart.css'
 
 const Navbarone = () => {
     const matches = useMediaQuery('(max-width: 678px)');

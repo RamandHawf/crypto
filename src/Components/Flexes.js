@@ -1,5 +1,5 @@
 import React from 'react';
-import './flex.css';
+import './CSS-files/flex.css';
 const Flexes = () => {
     return (
         <div className='container' id="item0"> 

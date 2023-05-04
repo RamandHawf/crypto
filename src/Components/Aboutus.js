@@ -2,10 +2,14 @@ import React,{useState,useEffect} from "react";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Lottie from "lottie-react";
 
-import leftData from "./leftdata.json";
-import rightData from "./rightdata.json";
+// import leftData from "./leftdata.json";
+import leftData from "./animations/leftdata.json";
 
-import "./about.css";
+// import rightData from "./rightdata.json";
+import rightData from "./animations/rightdata.json";
+
+
+import "./CSS-files/about.css";
 // import exampleGif from './example.gif';
 
 const Aboutus = () => {
@@ -34,7 +38,7 @@ const Aboutus = () => {
         <div className="videodata"  >
 
         <img src={animation} alt="Example GIF"    style={matches === true  ? 
-        { marginLeft:"-100px",width:"270px",height:"240px" }
+        { marginLeft:"-170px",width:"270px",height:"240px" }
         : {  width:"85%",height:"85%" }
         } />
 

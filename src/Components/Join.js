@@ -6,9 +6,12 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Lottie from "lottie-react";
 // import useMediaQuery from '@mui/material/useMediaQuery';
 // 
-import animationsData from "./databottom.json";
 
-import './join.css'
+// import animationsData from "./databottom.json";
+
+import animationsData from "./animations/databottom.json";
+
+import './CSS-files/join.css'
 const useStyles = makeStyles((theme) => ({
   container: {
     // width:"100%",

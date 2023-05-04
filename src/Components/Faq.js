@@ -1,5 +1,5 @@
 import React from "react";
-import "./faq.css";
+import "./CSS-files/faq.css";
 import { styled } from "@mui/material/styles";
 import { useTheme } from "@material-ui/core/styles";
 

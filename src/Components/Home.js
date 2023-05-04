@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 import useMediaQuery from '@mui/material/useMediaQuery';
-import animationsData from "./faq.json";
-import "./Home.css";
+// import animationsData from "./faq.json";
+import animationsData from "./animations/faq.json";
+import "./CSS-files/Home.css";
 
 const Home = () => {
   const matches = useMediaQuery('(max-width: 678px)');
