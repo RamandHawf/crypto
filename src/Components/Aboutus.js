@@ -28,11 +28,11 @@ const Aboutus = () => {
   let animation ="https://i.gifer.com/SVKl.gif"; 
   return (
     <div className="aboutparent">
-      <div className="logoup">
+      {/* <div className="logoup">
         <div className="pic">
           <img src="top.png" alt="top" />
         </div>
-      </div>
+      </div> */}
 
       <div className="middlebodydata">
         <div className="videodata"  >

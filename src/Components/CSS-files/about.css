@@ -25,7 +25,7 @@
 
 
 .middlebodydata {
-    margin-top: 120.21px;
+    /* margin-top: 120.21px; */
     height: 361px;
     width: 100%;
     display: flex;
@@ -415,7 +415,7 @@ color: #FFFFFF;
         margin-top: 100px;
       }
       .middlebodydata {
-        margin-top: 120.21px;
+        /* margin-top: 120.21px; */
         height: auto;
         width: auto;
         display: flex;

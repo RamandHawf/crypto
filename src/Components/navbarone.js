@@ -22,7 +22,7 @@ const Navbarone = () => {
   </a>
       </div>
       <div className={matches === true && show === false ? `twohide` : 'two111'}>
-        <div  >About us</div>
+        {/* <div  >About us</div> */}
         <div >FAQ</div>
         <div><a style={{color:"white",textDecoration:"none"}} href="https://docs.terra.money/">
         <div  >Optimos Docs</div>

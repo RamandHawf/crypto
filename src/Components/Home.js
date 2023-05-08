@@ -54,7 +54,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="third12">
+      {/* <div className="third12">
         <div className="withinthird1">Powered By Amazing Investors</div>
       </div>
 
@@ -63,7 +63,7 @@ const Home = () => {
         <img src="nyter.png" alt="nyter" />
         <img src="renio.png" alt="renio" />
         <img src="xyfinance-2.png" alt="xy-finance" />
-      </div>
+      </div> */}
     </>
   );
 };
