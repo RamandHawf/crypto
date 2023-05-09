@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
+import {
+   heading_one_home_Componet,
+heading_two_home_Component,
+   paragraph_one_home_component,
+  
+
+} from './Contentdata'
 import useMediaQuery from '@mui/material/useMediaQuery';
 // import animationsData from "./faq.json";
 import animationsData from "./animations/faq.json";
@@ -18,11 +25,10 @@ const Home = () => {
     <>
       <div className="container1">
         <div className="one12">
-          <div className="code1">CRYPTO CONNECT</div>
-          <div className="code2">A NETWORK OF TRUST AND SECURITY</div>
+          <div className="code1">{heading_one_home_Componet}</div>
+          <div className="code2">{heading_two_home_Component}</div>
           <div className="code3">
-            Crypterium Is The World Most Popular Way To Buy and Sell
-            Bitcoin,Etherium and LiteCoin
+{paragraph_one_home_component}
           </div>
           <button>Read More</button>
           <div className="frame8">

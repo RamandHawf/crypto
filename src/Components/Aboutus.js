@@ -2,6 +2,20 @@ import React,{useState,useEffect} from "react";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Lottie from "lottie-react";
 
+import {
+   heaading_one_aboutus_component, heaading_two_aboutus_component, paragraph_aboutus_component,
+  
+  
+    heading_three_aboutus_component,
+  
+  
+   paragraph_two_aboutus_component,
+  
+   paragraph_three_aboutus_component
+ 
+
+} from './Contentdata'
+
 // import leftData from "./leftdata.json";
 import leftData from "./animations/leftdata.json";
 
@@ -44,12 +58,10 @@ const Aboutus = () => {
 
         </div>
         <div className="textdata">
-          <div className="a">About Us</div>
-          <div className="b">What Is Optimos ?</div>
+          <div className="a">{heaading_one_aboutus_component}</div>
+          <div className="b">{heaading_two_aboutus_component}</div>
           <div className="c">
-            Optimos offer music artists the ability to connect with each other
-            along with investors and digitally exchange NFTs for their with
-            in.....
+           {paragraph_aboutus_component}
           </div>
         </div>
     
@@ -64,14 +76,14 @@ const Aboutus = () => {
       <div className="documentData">
         <div className="dd1">
           <div className="dd1child-pf1">
-            <h1 className="hedaingofdocument"> Document </h1>
+            <h1 className="hedaingofdocument"> {heading_three_aboutus_component} </h1>
           </div>
 
           <div className="dd1child-pf2">
             <h1 className="hedaingofdocumentdetail">
               {" "}
-              Document the whote paper and learn about the optimos Token, The
-              Unique ICO Crypto Approach and the Team/Advisors.{" "}
+              {paragraph_two_aboutus_component}
+              {" "}
             </h1>
           </div>
   
@@ -113,9 +125,8 @@ const Aboutus = () => {
    </div>
             </div>
             <div className  ="mid">
-                <p>SUPPORTED BY THE GLOBAL #LUNATIC COOMMUNITY,
-                    JOIN A DIVERSE, RAPIDLY GROWING WEB3 WCOSYSTEM
-                    PROJECTS ACROSS DEFI, GAMING AND NFTs
+                <p>
+                  {paragraph_three_aboutus_component}
                 </p>
             </div>
             <div className  ="right">

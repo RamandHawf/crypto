@@ -2,6 +2,9 @@ import React from "react";
 import "./CSS-files/faq.css";
 import { styled } from "@mui/material/styles";
 import { useTheme } from "@material-ui/core/styles";
+import {
+  heading_top_faq_component, paragraph_one_FAQ_component,button_one_textdata_FAQ_component,button_two_textdata_FAQ_component,button_three_textdata_FAQ_component,button_four_textdata_FAQ_component,button_five_textdata_FAQ_component
+} from './Contentdata.js'
 
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import MuiAccordion from "@mui/material/Accordion";
@@ -62,20 +65,20 @@ const Faq = () => {
   };
   return (
     <div className="faqparent" >
-      <div className="one112"> Have any Question? </div>
+      <div className="one112"> {heading_top_faq_component} </div>
       <div className="two112">
         {" "}
-        Join the industry leaders to discuss where the market are heading we
-        accept token payment{" "}
+{paragraph_one_FAQ_component}
+{" "}
       </div>
       <div className="three1" >
-        <div className="First">General</div>
-        <div className="Second">Pre ICO & ICO</div>
+        <div className="First">{button_one_textdata_FAQ_component}</div>
+        <div className="Second">{button_two_textdata_FAQ_component}</div>
 
-        <div className="Third">Token</div>
+        <div className="Third">{button_three_textdata_FAQ_component}</div>
 
-        <div className="Fourth">Client</div>
-        <div className="Fifth">Legal</div>
+        <div className="Fourth">{button_four_textdata_FAQ_component}</div>
+        <div className="Fifth">{button_five_textdata_FAQ_component}</div>
       </div>
       <div className="four"style={{
                     backgroundColor: "#1b192f",

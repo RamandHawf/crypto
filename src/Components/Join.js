@@ -2,7 +2,12 @@ import React,{useEffect,useState} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import useMediaQuery from '@mui/material/useMediaQuery';
+import {
 
+  Heading_one_join_component,Paragraph_one_join_component,
+   foonter_first_paragraph,foonter_second_paragraph,foonter_third_paragraph,foonter_bottom_paragraph
+
+} from './Contentdata'
 import Lottie from "lottie-react";
 // import useMediaQuery from '@mui/material/useMediaQuery';
 // 
@@ -128,7 +133,7 @@ function Join() {
   
                   color: "#FFFFFF",
                 }}
-            >Join Our community</h1>
+            >{Heading_one_join_component}</h1>
 
             <p style={matches === true ? {
               margin:"20px",
@@ -157,12 +162,9 @@ function Join() {
               textTransform: "capitalize",
 
               color: "#FFFFFF",
-            } } >1122
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quas,
-              est dignissimos iste accusamus corporis error,
-              nisi reprehenderit molestias odit impedit, pariatur quod. Facilis ducimus,
-              mollitia nulla perferendis similique cum!
+            } } >
 
+              {Paragraph_one_join_component}
             </p>
             <button
               style={matches===true ? 
@@ -276,7 +278,7 @@ function Join() {
 
               opacity: "0.8",
 
-            }} > Don't miss out, Stay Updated </h1>
+            }} > {foonter_first_paragraph} </h1>
           <p
             style={matches === true ? {
               width:"auto",
@@ -307,7 +309,7 @@ function Join() {
 
               opacity: "0.8",
             }}
-          > Don't hesitate to subscribe to latest news about optimus </p>
+          > {foonter_second_paragraph} </p>
 
           <div style={matches===true ? {
             width: "auto",
@@ -457,9 +459,7 @@ function Join() {
 
 
 
-          } } >Don't hesitate to subscribe to latest news about optimos
-            predict as well as crucial financial knowledge to become
-            successful investors globally
+          } } >{foonter_third_paragraph}
           </p>
           <div className="icons social media"
             style={matches===true ?{
@@ -522,7 +522,7 @@ function Join() {
           textAAlign: "center",
 
           color: "#FFFFFF"
-        }} >2022 : All Right Reserved by optimos</div>
+        }} >{foonter_bottom_paragraph}</div>
 
       </div>
     </Grid>
