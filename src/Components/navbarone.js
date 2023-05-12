@@ -24,7 +24,7 @@ const Navbarone = () => {
       <div className={matches === true && show === false ? `twohide` : 'two111'}>
         {/* <div  >About us</div> */}
         <div >FAQ</div>
-        <div><a style={{color:"white",textDecoration:"none"}} href="https://docs.terra.money/">
+        <div><a style={{color:"white",textDecoration:"none"}} href="https://docs-ten-dusky.vercel.app/">
         <div  >Optimos Docs</div>
         </a></div>
     
