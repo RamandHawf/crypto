@@ -8,20 +8,23 @@ import Join from './Components/Join';
 import Flexes from './Components/Flexes'
 import Navbarone from './Components/navbarone';
 // import Responsive1 from './Components/responsive1';
-
+import Transfer from './Components/Transfer'
+import PurchaseMiningPower from './Components/PowerPurchase';
 
 
 function App() {
   return (
     <>
+    {/* <PurchaseMiningPower/> */}
+    <Transfer/>
     {/* <Flexes/> */}
     {/* <Navbars/> */}
-    <Navbarone/>
+    {/* <Navbarone/> */}
     {/* <Navbar/> */}
-    <Home/>
+    {/* <Home/>
     <Aboutus/>
     <Faq/>
-    <Join/>
+    <Join/> */}
     {/* <Responsive1/> */}
     </>
   );
