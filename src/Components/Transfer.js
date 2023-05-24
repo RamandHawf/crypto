@@ -15,9 +15,7 @@ const  Transfer=() => {
 
 
 
-  useEffect(() => {
-    // fetchFromAddressList();
-  }, []);
+
 
   const handleSend = async (event) => {
     event.preventDefault()
@@ -44,31 +42,35 @@ const  Transfer=() => {
      signer.sendTransaction(transaction).then(async (res)=>{
       if(res)
       {
+        console.log(res)
         // setTransactionHash(res.transaction.hash);
-        const response = await axios.post('http://localhost:4000/api/money/create_transaction', 
+         axios.post('http://localhost:4000/api/money/create_transaction', 
         {
-            to: fromtoAddressList,
+            to: fromtoAddressList[0],
             from: tofromAddress,
-            user_id:10,
-            package_id:1
-        },{ crossorigin: true }
-        );
-        if(response.status===200)
+            userid:10,
+            packageid:1
+        }
+        ).then((res)=>{
+          if(res)
       {
         alert(`Your transaction done succesffuly ${res} `)
-      } else {
-        console.log(response); 
-        alert(`Your transaction not done succesffuly for response database  ${res} `) }
       }
-      else
-      {
-        console.log(res)
-        alert(`Your transaction not done succesffuly for response from metamask wallet ${res} `)
+        }).catch((err)=>{
+          // console.log(err)
+          // console.error(err.message);
+          // console.error(err.response.data);
+          alert(`Your transaction does not stored in database succesffuly ${err} `)
+        })
+        
       }
+
 
       
      }).catch((err)=>{
       console.log(err)
+      alert(`Your transaction not done succesffuly for response from metamask wallet ${err} `)
+
      })
     
 
