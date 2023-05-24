@@ -1,9 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from 'react';
+import Web3 from 'web3';
 import  {ethers}  from "ethers";
 import axios from 'axios';
 
 
+
 const  Transfer=() => {
+  const [transactions, setTransactions] = useState([]);
+
   const [tofromAddress, setToAddress] = useState("");
   const [fromtoAddressList, setFromAddressList] = useState([
     "0xe3be6c788d863106b540866184077651dB329aEd"
@@ -14,7 +18,7 @@ const  Transfer=() => {
   const [error, setError] = useState("");
 
 
-
+  
 
 
   const handleSend = async (event) => {
@@ -46,6 +50,8 @@ const  Transfer=() => {
         // setTransactionHash(res.transaction.hash);
          axios.post('http://localhost:4000/api/money/create_transaction', 
         {
+            transactiondetail : JSON.stringify(res),
+            transactionhash : res.hash,
             to: fromtoAddressList[0],
             from: tofromAddress,
             userid:10,
