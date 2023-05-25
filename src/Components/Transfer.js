@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Web3 from 'web3';
 import  {ethers}  from "ethers";
 import axios from 'axios';
 
 
 
 const  Transfer=() => {
-  const [transactions, setTransactions] = useState([]);
+  // const [transactions, setTransactions] = useState([]);
 
   const [tofromAddress, setToAddress] = useState("");
   const [fromtoAddressList, setFromAddressList] = useState([
