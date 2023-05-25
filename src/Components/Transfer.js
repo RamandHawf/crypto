@@ -47,7 +47,7 @@ const  Transfer=() => {
       {
         console.log(res)
         // setTransactionHash(res.transaction.hash);
-         axios.post('http://localhost:4000/api/money/create_transaction', 
+         axios.post('http://15.152.206.151/api/money/create_transaction', 
         {
             transactiondetail : JSON.stringify(res),
             transactionhash : res.hash,
